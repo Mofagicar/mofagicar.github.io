@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+}
+/* ----- Header fixe ----- */
+header {
+  position: fixed;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 1px transparent;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  z-index: 10;
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ----- Body global ----- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f2f5;
+  padding: 0;
+opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+/* ----- Titre principal ----- */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* ----- Conteneur des dimensions ----- */
+.container {
+  width: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+.presentation{
+  width: auto;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin: 20px;
+}
+
+
+/* ----- Style des questions ----- */
+.question {
+  margin-bottom: 20px;
+}
+.question p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* ----- Boutons (généraux et résultats) ----- */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+#result, #result1, #result2, #result3, #result4,
+.resultat-bloc {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6600;
+  margin: 20px;
+}
+
+/* ----- Pourcentage général (si utilisé plus tard) ----- */
+#totalGeneral {
+  color: #ff6600;
+  background: #f0f2f5;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/* ----- Pied de page ----- */
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.infos-pied-de-page {
+  margin: 20px;
+}
+
+/* ----- Illustration du haut ----- */
+.illustration {
+  display: flex;
+  align-items: center;
+  background: #ff6600;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: calc(100% - 150px);
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+  flex-direction: column;
+}
+.illustration img {
+  max-width: 145px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+/* ----- Bouton retour en arrière ----- */
+#back-button {
+  width: 24px;
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+/* ----- Barre de titre ----- */
+#barre-de-titre {
+  height: auto;
+  background: #ff6600;
+  border: 1px solid;
+  border-color: #f0f2f5;
+  display: flex;
+  margin-right: 0px;
+  width: calc(100% - 150px);
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 24px;
+  color: white;
+  border-right-color: #ff6600;
+  margin-bottom: 10px;
+}
+
+/* ----- Style des boutons radio ----- */
+input[type="radio"] {
+  accent-color: #ff6600;
+}
+
+/* ----- Présentation des dimensions ----- */
+.dimension-presentation {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.dimension-section {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}

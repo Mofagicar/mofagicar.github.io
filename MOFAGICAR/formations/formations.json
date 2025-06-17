@@ -1,0 +1,596 @@
+{
+  "personnalite": {
+    "titre": "Découvrir sa personnalité pour mieux avancer",
+    "illustration": "../images/fdecouvrir.png",
+    "presentation": "<p>Bienvenue dans ce programme de 12 jours dédié à la découverte de votre personnalité. Mieux se connaître est l’une des clés fondamentales du développement personnel.</p><p>Ce programme vous guidera pas à pas pour explorer les grandes dimensions de votre personnalité, comprendre vos comportements, vos motivations, et vos réactions dans diverses situations.</p><p>À travers des exercices simples, des réflexions ciblées et des mises en situation concrètes, vous allez :</p><ul><li>Identifier vos traits dominants et comprendre leur impact sur votre vie quotidienne</li><li>Prendre conscience de vos forces et de vos axes d’évolution</li><li>Apprendre à mieux interagir avec les autres selon votre type de personnalité</li><li>Poser les bases d’un développement personnel authentique, aligné avec qui vous êtes réellement</li></ul><p>Chaque jour, un nouvel aspect de votre personnalité sera abordé, afin de créer une progression logique et impactante.</p>",
+    "jours": [
+  {
+    "titre": "Jour 1 - Qui suis-je vraiment ?",
+    "description": "Commence par une introspection guidée. Liste 10 traits que tu crois avoir. Demande ensuite à deux proches de te décrire. Compare."
+  },
+  {
+    "titre": "Jour 2 - Les 5 grands traits de la personnalité",
+"description": "Découvre les Big Five : ouverture, conscience, extraversion, agréabilité, névrosisme. Essaie de te situer sur chaque trait. Pour aller plus loin, réalise le <a href='../tests/developpementpersonnel/tests.html?test=personnalite'>test de personnalité</a> afin d’obtenir ton profil personnalisé."
+},
+  {
+    "titre": "Jour 3 - Forces et faiblesses",
+    "description": "Dresse une liste honnête de tes points forts et de tes défis personnels. Classe-les par ordre d’impact dans ta vie quotidienne."
+  },
+  {
+    "titre": "Jour 4 - Les masques sociaux",
+    "description": "Réfléchis à comment tu te comportes en famille, en public, au travail. Y a-t-il un décalage entre ton vrai toi et ce que tu montres ?"
+  },
+  {
+    "titre": "Jour 5 - Valeurs fondamentales",
+    "description": "Choisis 5 valeurs qui te définissent le plus (ex : liberté, loyauté, créativité). Demande-toi si tes actions les reflètent."
+  },
+  {
+    "titre": "Jour 6 - Les croyances limitantes",
+    "description": "Identifie 3 pensées négatives qui te freinent. Reformule-les en affirmations constructives et réalistes."
+  },
+  {
+    "titre": "Jour 7 - Prendre conscience de son histoire",
+    "description": "Note 5 événements marquants qui ont influencé ta personnalité. Quels comportements ou pensées en découlent encore aujourd’hui ?"
+  },
+  {
+    "titre": "Jour 8 - Identifier ses besoins",
+    "description": "Quels besoins fondamentaux reviennent souvent chez toi ? (reconnaissance, sécurité, nouveauté…) Observe ton quotidien."
+  },
+  {
+    "titre": "Jour 9 - Ton environnement t’aide-t-il ?",
+    "description": "Évalue si ton entourage (pro, perso) t’encourage à être toi-même ou à te cacher. Que peux-tu ajuster ?"
+  },
+  {
+    "titre": "Jour 10 - Explorer ses passions",
+    "description": "Note 3 activités qui te donnent de l’énergie et du sens. Comment pourrais-tu leur donner plus de place dans ta vie ?"
+  },
+  {
+    "titre": "Jour 11 - Ton moi idéal",
+    "description": "Décris la personne que tu aimerais devenir dans 6 mois. Sois précis·e. Quelles qualités veux-tu développer ?"
+  },
+  {
+    "titre": "Jour 12 - Bilan et plan d’action",
+    "description": "Relis tes notes. Que retiens-tu ? Note 3 engagements simples pour mieux respecter ta personnalité dans tes choix."
+  }
+    ],
+    "lienComplet": {
+      "texte": "Télécharger la formation",
+      "url": "https://votresite.com/formation/confiance"
+    }
+  },
+
+  "confiance": {
+    "titre": "Renforcer sa confiance en soi",
+    "illustration": "../images/fconfiance.png",
+    "presentation": "<p>Bienvenue dans ce programme de 12 jours dédié à la confiance en soi. La confiance n’est pas innée : elle se construit, s’entretient et se renforce jour après jour.</p><p>Cette formation t’accompagnera pour dépasser tes doutes, affronter tes peurs et affirmer qui tu es avec authenticité.</p><p>Grâce à des exercices progressifs, tu vas :</p><ul><li>Identifier les sources de ton manque de confiance</li><li>Reprogrammer ton discours intérieur</li><li>Agir malgré la peur du regard des autres</li><li>Poser des actions concrètes pour affirmer ta valeur</li></ul><p>Prépare-toi à sortir de ta zone de confort… en toute bienveillance !</p>",
+    "jours": [
+      {
+        "titre": "Jour 1 – Comprendre la confiance en soi",
+        "description": "Découvre la différence entre confiance, estime et affirmation de soi. Réfléchis à une situation où tu t’es senti·e confiant·e : pourquoi ? À l’inverse, une où tu as douté de toi : qu’est-ce qui t’a freiné·e ? Pour aller plus loin, réalise le <a href='../tests/developpementpersonnel/tests.html?test=confiance'>test de confiance en soi</a> afin d’évaluer ton niveau actuel."
+      },
+      {
+        "titre": "Jour 2 – Identifier ses croyances limitantes",
+        "description": "Quelles pensées reviennent souvent dans ta tête ? (ex : « Je ne suis pas capable », « Je vais échouer ») Note-les et remets-les en question."
+      },
+      {
+        "titre": "Jour 3 – Reprogrammer son discours intérieur",
+        "description": "Transforme tes croyances négatives en affirmations positives. Répète-les chaque matin et chaque soir pendant 3 jours."
+      },
+      {
+        "titre": "Jour 4 – Les petites victoires du quotidien",
+        "description": "Fais une liste de 5 choses que tu as accomplies récemment, même minimes. Relis-les quand tu doutes de toi."
+      },
+      {
+        "titre": "Jour 5 – Oser dire non",
+        "description": "Aujourd’hui, identifie une situation où tu peux poser une limite ou exprimer un désaccord. Pratique-le avec respect."
+      },
+      {
+        "titre": "Jour 6 – Corps et posture de la confiance",
+        "description": "Observe ta posture : te tiens-tu droit·e, regardes-tu les gens dans les yeux ? Adopte une posture assurée pendant 10 minutes aujourd’hui."
+      },
+      {
+        "titre": "Jour 7 – Le regard des autres",
+        "description": "Note 3 situations où tu agis différemment par peur du jugement. Comment pourrais-tu rester fidèle à toi-même malgré cela ?"
+      },
+      {
+        "titre": "Jour 8 – Agir malgré la peur",
+        "description": "Choisis une petite action que tu repousses par peur. Fais-la aujourd’hui, même avec le stress. Note comment tu te sens après."
+      },
+      {
+        "titre": "Jour 9 – S’entourer positivement",
+        "description": "Fais le point sur ton entourage : qui te soutient ? Qui te tire vers le bas ? Passe plus de temps avec ceux qui te valorisent."
+      },
+      {
+        "titre": "Jour 10 – Valoriser ses qualités",
+        "description": "Fais une liste de 10 qualités ou compétences que tu possèdes. Demande à 2 personnes proches d’en ajouter 3 à ta liste."
+      },
+      {
+        "titre": "Jour 11 – S’exposer progressivement",
+        "description": "Note une situation sociale ou professionnelle qui te fait peur. Découpe-la en étapes et fixe une première action simple à faire cette semaine."
+      },
+      {
+        "titre": "Jour 12 – Célébrer son évolution",
+        "description": "Relis tes notes depuis le début. Qu’as-tu appris sur toi ? Note 3 choses dont tu es fier·e. Prévois une petite récompense pour célébrer."
+      }
+    ],
+    "lienComplet": {
+      "texte": "Télécharger la formation",
+      "url": "https://votresite.com/formation/confiance"
+    }
+  },
+
+  "stress": {
+    "titre": "Gérer son stress et ses émotions avec calme",
+    "illustration": "../images/fstress.png",
+    "presentation": "<p>Bienvenue dans cette formation de 12 jours dédiée à la gestion du stress et à la régulation émotionnelle. Dans un monde où les sollicitations sont constantes, il est essentiel de savoir faire face avec calme et lucidité.</p><p>Ce programme vous accompagne pour identifier vos sources de stress, comprendre vos réactions émotionnelles, et développer des outils concrets pour mieux vivre chaque situation. À travers des exercices progressifs, vous apprendrez à :</p><ul><li>Observer et nommer vos émotions</li><li>Identifier les déclencheurs de stress dans votre quotidien</li><li>Adopter des stratégies de calme et de recentrage</li><li>Renforcer votre résilience et votre stabilité intérieure</li></ul><p>Chaque jour apporte une nouvelle clé pour construire un équilibre émotionnel durable. L’objectif n’est pas de ne plus ressentir d’émotions, mais d’apprendre à mieux les comprendre et les accueillir.</p>",
+    "jours": [
+      {
+        "titre": "Jour 1 - Observer son stress",
+        "description": "Note pendant une journée les moments où tu ressens du stress. Quelles sont les causes ? À quoi ressemble ta réaction physique ou émotionnelle ? Pour mieux comprendre ton profil émotionnel, commence par réaliser le <a href='../tests/developpementpersonnel/tests.html?test=stress'>test de gestion du stress et des émotions</a>."
+      },
+      {
+        "titre": "Jour 2 - Comprendre le mécanisme du stress",
+        "description": "Apprends comment le corps réagit face à un danger ou à une pression. Découvre les trois phases du stress : alarme, résistance, épuisement."
+      },
+      {
+        "titre": "Jour 3 - Identifier ses déclencheurs",
+        "description": "Quelles sont les situations, personnes ou pensées qui te stressent le plus ? Dresse une liste et observe les schémas récurrents."
+      },
+      {
+        "titre": "Jour 4 - Apprendre à respirer",
+        "description": "Pratique la respiration profonde (cohérence cardiaque, respiration abdominale). Note les effets sur ton niveau de tension."
+      },
+      {
+        "titre": "Jour 5 - Accueillir ses émotions",
+        "description": "Plutôt que de fuir une émotion, essaie aujourd’hui de l’écouter. Nomme-la, décris-la, sans jugement. Qu’a-t-elle à te dire ?"
+      },
+      {
+        "titre": "Jour 6 - Mettre en pause l’esprit",
+        "description": "Consacre 10 minutes au silence intérieur : pas de téléphone, pas de musique. Simplement observer ta respiration ou ton environnement."
+      },
+      {
+        "titre": "Jour 7 - Apprivoiser l’anxiété",
+        "description": "Choisis une situation qui t’angoisse et note ce que tu imagines qu’il pourrait arriver. Puis liste des issues positives ou neutres possibles."
+      },
+      {
+        "titre": "Jour 8 - Se créer un rituel apaisant",
+        "description": "Établis un petit rituel quotidien pour te recentrer : boisson chaude, méditation, marche… Respecte-le aujourd’hui."
+      },
+      {
+        "titre": "Jour 9 - Évacuer les tensions physiques",
+        "description": "Fais 15 à 30 minutes d’activité physique légère : étirements, yoga, marche. Observe l’effet sur ton état mental."
+      },
+      {
+        "titre": "Jour 10 - Reprendre le contrôle",
+        "description": "Choisis une situation stressante récente. Qu’aurais-tu pu contrôler ? Que peux-tu faire différemment la prochaine fois ?"
+      },
+      {
+        "titre": "Jour 11 - Exprimer sainement ses émotions",
+        "description": "Écris une lettre (que tu n’enverras pas) à quelqu’un ou à toi-même, pour exprimer ce que tu ressens sans retenue. Soulagement ?"
+      },
+      {
+        "titre": "Jour 12 - Bilan et plan anti-stress",
+        "description": "Note ce que tu retiens de ces 12 jours. Quelle technique t’a le plus aidé·e ? Établis un plan de 3 habitudes anti-stress à intégrer durablement."
+      }
+    ],
+    "lienComplet": {
+      "texte": "Télécharger la formation",
+      "url": "https://votresite.com/formation/stress"
+    }
+  },
+
+  "communication": {
+    "titre": "Améliorer ses relations et sa communication",
+    "illustration": "../images/fcommunication.png",
+    "presentation": "<p>Bienvenue dans cette formation de 12 jours consacrée à l’amélioration de vos relations et de votre communication. Savoir bien communiquer, c’est bien plus que parler : c’est écouter, comprendre, s’adapter et se faire respecter.</p><p>Au fil de ces 12 jours, vous allez identifier les blocages relationnels, apprendre des techniques simples mais puissantes pour dialoguer sereinement, et renforcer vos liens personnels et professionnels. Vous allez :</p><ul><li>Développer une écoute active et bienveillante</li><li>Exprimer vos besoins sans agressivité ni soumission</li><li>Mieux gérer les conflits et les malentendus</li><li>Créer des relations plus authentiques et équilibrées</li></ul><p>Chaque jour, une facette de la communication interpersonnelle sera explorée pour vous aider à créer des liens plus sains et plus fluides autour de vous.</p>",
+    "jours": [
+      {
+        "titre": "Jour 1 - Faire le point sur ses relations",
+        "description": "Liste les personnes importantes dans ta vie et note le niveau de satisfaction que tu ressens dans chaque relation. Pour mieux cerner tes points forts et tes difficultés en communication, commence par faire le <a href='../tests/developpementpersonnel/tests.html?test=communication'>test de communication</a>."
+      },
+      {
+        "titre": "Jour 2 - Écouter vraiment",
+        "description": "Aujourd’hui, entraîne-toi à écouter sans interrompre. Reformule ce que dit ton interlocuteur pour vérifier ta compréhension."
+      },
+      {
+        "titre": "Jour 3 - Identifier son style de communication",
+        "description": "Es-tu plutôt passif·ve, agressif·ve, passif-agressif·ve ou assertif·ve ? Observe comment tu t’exprimes dans les échanges délicats."
+      },
+      {
+        "titre": "Jour 4 - Dire non avec respect",
+        "description": "Choisis une situation où tu aurais voulu dire non. Reformule-la de façon ferme mais respectueuse. Entraîne-toi à la dire à voix haute."
+      },
+      {
+        "titre": "Jour 5 - Clarifier ses besoins",
+        "description": "Identifie un besoin que tu n’as pas exprimé récemment (temps seul·e, reconnaissance, écoute…). Comment pourrais-tu le formuler clairement ?"
+      },
+      {
+        "titre": "Jour 6 - Gérer les désaccords sans conflit",
+        "description": "Note une situation de désaccord récente. Comment aurais-tu pu exprimer ton point de vue avec calme et ouverture ?"
+      },
+      {
+        "titre": "Jour 7 - Décoder les signaux non verbaux",
+        "description": "Observe aujourd’hui les gestes, expressions et postures autour de toi. Quelles émotions ou intentions perçois-tu ?"
+      },
+      {
+        "titre": "Jour 8 - Être pleinement présent",
+        "description": "Dans une conversation aujourd’hui, concentre-toi à 100 % sur l’autre : pas de téléphone, pas de distraction. Que remarques-tu de différent ?"
+      },
+      {
+        "titre": "Jour 9 - Apaiser une relation tendue",
+        "description": "Pense à une personne avec qui le lien est tendu. Que pourrais-tu dire ou faire pour faire un premier pas sans te renier ?"
+      },
+      {
+        "titre": "Jour 10 - Exprimer sa gratitude",
+        "description": "Dis merci de façon sincère à 3 personnes aujourd’hui. Observe l’effet sur la relation… et sur toi."
+      },
+      {
+        "titre": "Jour 11 - Pratiquer l’assertivité",
+        "description": "Exprime aujourd’hui une opinion ou une préférence sans t’excuser ou minimiser. Sois clair·e, calme et respectueux·se."
+      },
+      {
+        "titre": "Jour 12 - Bilan relationnel",
+        "description": "Relis tes notes. Qu’as-tu appris sur ta façon de communiquer ? Note 3 engagements pour nourrir des relations plus saines et épanouissantes."
+      }
+    ],
+    "lienComplet": {
+      "texte": "Télécharger la formation",
+      "url": "https://votresite.com/formation/communication"
+    }
+  },
+"productivite": {
+  "titre": "Booster sa productivité",
+  "illustration": "../images/fproductivite.png",
+  "presentation": "<p>Bienvenue dans ce programme intensif de 12 jours dédié à l’amélioration de votre productivité. Ce parcours vous aidera à reprendre le contrôle de votre emploi du temps, à optimiser vos efforts et à créer une dynamique durable d’efficacité.</p><p>Nous allons travailler ensemble sur l’organisation, la concentration, la gestion des priorités, mais aussi sur votre état d’esprit face au travail et à la procrastination.</p><p>Chaque jour, vous découvrirez une nouvelle stratégie ou habitude à mettre en place, accompagnée d’exercices concrets et de réflexions utiles pour :</p><ul><li>Identifier et éliminer les voleurs de temps</li><li>Structurer vos journées de manière optimale</li><li>Clarifier vos priorités et vos objectifs</li><li>Passer à l’action avec régularité et motivation</li></ul><p>Ce programme vous permettra de bâtir une organisation sur mesure, adaptée à votre rythme et vos ambitions.</p>",
+  "jours": [
+    {
+      "titre": "Jour 1 - Fais le point sur ton efficacité actuelle",
+      "description": "Observe ton emploi du temps sur une journée type. Identifie les moments où tu es le plus productif. Pour aller plus loin, réalise le <a href='../tests/developpementpersonnel/tests.html?test=productivite'>test de productivité</a> pour obtenir ton profil d’efficacité."
+    },
+    {
+      "titre": "Jour 2 - Clarifie tes objectifs",
+      "description": "Écris les 3 objectifs principaux que tu veux atteindre ce mois-ci. Pourquoi sont-ils importants ? Quelle est ta première action ?"
+    },
+    {
+      "titre": "Jour 3 - Planification efficace",
+      "description": "Essaye de planifier ta journée du lendemain en blocs de 60 à 90 minutes, dédiés à des tâches précises. Prévois des pauses."
+    },
+    {
+      "titre": "Jour 4 - Elimine les distractions",
+      "description": "Fais la liste des éléments qui perturbent ta concentration. Que peux-tu modifier dans ton environnement ou ta routine ?"
+    },
+    {
+      "titre": "Jour 5 - Priorise avec la méthode Eisenhower",
+      "description": "Classe tes tâches selon : urgent/important. Concentre-toi sur les tâches importantes non urgentes."
+    },
+    {
+      "titre": "Jour 6 - Crée un rituel de démarrage",
+      "description": "Mets en place un petit rituel qui marque le début de chaque session de travail (musique, boisson, respiration...)."
+    },
+    {
+      "titre": "Jour 7 - Surmonte la procrastination",
+      "description": "Note 3 tâches que tu repousses souvent. Pourquoi ? Coupe-les en micro-tâches pour les rendre plus accessibles."
+    },
+    {
+      "titre": "Jour 8 - Apprends à dire non",
+      "description": "Dans quels cas dis-tu oui alors que tu devrais refuser ? Écris une phrase type pour décliner poliment une demande non prioritaire."
+    },
+    {
+      "titre": "Jour 9 - Optimise ton énergie",
+      "description": "Repère les moments où ton énergie est au plus haut. Comment peux-tu aligner tes tâches importantes à ces moments ?"
+    },
+    {
+      "titre": "Jour 10 - Utilise la règle des 2 minutes",
+      "description": "Si une tâche prend moins de 2 minutes, fais-la immédiatement. Applique-la dès aujourd’hui à 5 occasions."
+    },
+    {
+      "titre": "Jour 11 - Organise ton espace",
+      "description": "Désencombre ton espace de travail. Crée un environnement visuellement clair et apaisant."
+    },
+    {
+      "titre": "Jour 12 - Bilan et système durable",
+      "description": "Quelles habitudes veux-tu garder ? Crée une checklist hebdomadaire pour maintenir ton niveau de productivité."
+    }
+  ],
+  "lienComplet": {
+    "texte": "Télécharger la formation",
+    "url": "https://votresite.com/formation/productivite"
+  }
+},
+"mindset": {
+  "titre": "Adopter un mindset de croissance",
+  "illustration": "../images/fmindset.png",
+  "presentation": "<p>Bienvenue dans ce programme de 12 jours pour transformer ta manière de penser et développer un état d’esprit orienté croissance. Le mindset de croissance, c’est croire que l’on peut s’améliorer avec des efforts, des stratégies et de la persévérance.</p><p>Ce programme t’aidera à dépasser tes croyances limitantes, à développer une meilleure tolérance à l’échec et à renforcer ta motivation pour apprendre et évoluer constamment.</p><p>Chaque jour, tu travailleras sur un aspect clé pour :</p><ul><li>Remplacer le doute par des pensées constructives</li><li>Apprendre à apprendre, même face à l’erreur</li><li>Transformer les obstacles en opportunités de progrès</li><li>Faire de la progression un plaisir au quotidien</li></ul><p>Tu vas reprogrammer ton cerveau pour voir le potentiel en toi, là où d’autres verraient des limites.</p>",
+  "jours": [
+    {
+      "titre": "Jour 1 - Quel est ton état d’esprit actuel ?",
+      "description": "As-tu tendance à fuir l’échec ou à l’utiliser pour progresser ? Prends conscience de ton rapport à l’apprentissage. Pour aller plus loin, fais le <a href='../tests/developpementpersonnel/tests.html?test=mindset'>test de mindset</a> pour situer ton état d’esprit actuel."
+    },
+    {
+      "titre": "Jour 2 - Les croyances limitantes",
+      "description": "Note 3 idées que tu crois vraies sur toi-même (ex : « je ne suis pas créatif »). D’où viennent-elles ? Que disent-elles de ton mindset ?"
+    },
+    {
+      "titre": "Jour 3 - Le pouvoir du ‘encore’",
+      "description": "Ajoute « pas encore » à tes pensées limitantes (ex : « je ne sais pas le faire... encore »). Observe comment cela change ton ressenti."
+    },
+    {
+      "titre": "Jour 4 - Apprendre de ses erreurs",
+      "description": "Choisis une erreur passée et écris 3 choses qu’elle t’a apprises. Qu’aurais-tu fait différemment avec ton mindset actuel ?"
+    },
+    {
+      "titre": "Jour 5 - Célébrer les efforts, pas juste les résultats",
+      "description": "Fais une liste de 3 efforts récents dont tu es fier·e. Qu’est-ce qu’ils disent de ton engagement dans ta progression ?"
+    },
+    {
+      "titre": "Jour 6 - Entoure-toi de croissance",
+      "description": "Identifie 2 personnes (réelles ou modèles) qui incarnent le mindset de croissance. Qu’est-ce que tu peux apprendre d’eux ?"
+    },
+    {
+      "titre": "Jour 7 - Le langage de la croissance",
+      "description": "Transforme 3 phrases que tu dis souvent en version orientée croissance (ex : « je suis nul » → « je suis en apprentissage »)."
+    },
+    {
+      "titre": "Jour 8 - Fixe-toi un micro-défi",
+      "description": "Choisis un petit défi à réaliser aujourd’hui, juste en dehors de ta zone de confort. Quelle leçon en tires-tu ?"
+    },
+    {
+      "titre": "Jour 9 - Visualisation de la progression",
+      "description": "Ferme les yeux et imagine-toi dans 3 mois avec ce nouveau mindset. Que fais-tu ? Comment tu te sens ? Qu’est-ce qui a changé ?"
+    },
+    {
+      "titre": "Jour 10 - Apprends chaque jour",
+      "description": "Note une chose que tu as apprise aujourd’hui, même minime. Intègre cette habitude quotidiennement."
+    },
+    {
+      "titre": "Jour 11 - Recommencer différemment",
+      "description": "Choisis un domaine où tu as échoué. Refais une tentative avec une autre méthode. Observe ce que tu gagnes dans le processus."
+    },
+    {
+      "titre": "Jour 12 - Ton plan de croissance",
+      "description": "Note 3 habitudes ou principes que tu veux garder pour nourrir ton mindset de croissance durablement."
+    }
+  ],
+  "lienComplet": {
+    "texte": "Télécharger la formation",
+    "url": "https://votresite.com/formation/mindset"
+  }
+},
+"discipline": {
+  "titre": "Construire une discipline durable",
+  "illustration": "../images/fdiscipline.png",
+  "presentation": "<p>Bienvenue dans ce programme de 12 jours pour bâtir une discipline solide et durable. La motivation est utile pour commencer, mais c’est la discipline qui permet d’aller jusqu’au bout.</p><p>Tu vas apprendre à créer des habitudes, à gérer la procrastination, à rester constant·e même quand l’envie n’est plus là. Ce programme s’adresse à tous ceux qui veulent reprendre le contrôle de leur temps et de leurs objectifs.</p><p>Chaque jour, tu feras un pas de plus vers :</p><ul><li>Une motivation ancrée dans le sens</li><li>Une organisation réaliste et efficace</li><li>Une plus grande résistance aux distractions</li><li>Une confiance renforcée grâce à la régularité</li></ul><p>La discipline est une compétence, pas un don : tu vas l’entraîner comme un muscle, avec rigueur et bienveillance.</p>",
+  "jours": [
+    {
+      "titre": "Jour 1 - Motivation ou discipline ?",
+      "description": "Fais le point sur ton fonctionnement actuel. Es-tu motivé·e sur le coup mais pas constant·e ? Pour mieux te situer, fais le <a href='../tests/developpementpersonnel/tests.html?test=motivation'>test de motivation et discipline</a> pour connaître ton profil."
+    },
+    {
+      "titre": "Jour 2 - Définir ton pourquoi",
+      "description": "Choisis un objectif important et note pourquoi il est essentiel pour toi. Un bon « pourquoi » crée une discipline durable."
+    },
+    {
+      "titre": "Jour 3 - Mini-habitudes",
+      "description": "Commence une habitude minuscule (ex : lire 1 minute, faire 1 pompe) et fais-la chaque jour. La régularité prime sur la quantité."
+    },
+    {
+      "titre": "Jour 4 - Supprimer les distractions",
+      "description": "Identifie 3 distractions majeures dans ta journée. Que peux-tu mettre en place pour les éviter ou les limiter ?"
+    },
+    {
+      "titre": "Jour 5 - Structurer ta journée",
+      "description": "Planifie demain heure par heure. Intègre une routine du matin ou du soir. Tiens-toi-y et note ton ressenti."
+    },
+    {
+      "titre": "Jour 6 - L’art du redémarrage",
+      "description": "Note une habitude que tu as abandonnée. Pourquoi ? Et si tu la reprenais aujourd’hui sans te juger ?"
+    },
+    {
+      "titre": "Jour 7 - Discipline bienveillante",
+      "description": "La discipline ne doit pas être dure, mais alignée. Remplace l’autocritique par un langage encourageant."
+    },
+    {
+      "titre": "Jour 8 - Le pouvoir des rituels",
+      "description": "Choisis un rituel (ex : boisson chaude + musique + tâche difficile) pour t’y tenir chaque jour. Associe-le à un moment précis."
+    },
+    {
+      "titre": "Jour 9 - Gérer les coups de mou",
+      "description": "Que fais-tu quand tu n’as pas envie ? Liste 3 stratégies pour te remettre doucement en action sans pression."
+    },
+    {
+      "titre": "Jour 10 - Visualisation de ton toi discipliné",
+      "description": "Imagine-toi dans 6 mois, ayant tenu tes routines. Que vois-tu ? Comment cela t’impacte ? Note tes émotions."
+    },
+    {
+      "titre": "Jour 11 - Récompenser les efforts",
+      "description": "Prévois une petite récompense (non digitale) à chaque fois que tu respectes ton plan. Le cerveau adore les boucles de plaisir."
+    },
+    {
+      "titre": "Jour 12 - Ton système personnel",
+      "description": "Crée un tableau ou carnet où tu coches tes routines. Note ce qui marche pour toi et ajuste ton système pour qu’il dure."
+    }
+  ],
+  "lienComplet": {
+    "texte": "Télécharger la formation",
+    "url": "https://votresite.com/formation/discipline"
+  }
+},
+"charisme": {
+  "titre": "Devenir un leader naturel et charismatique",
+  "illustration": "../images/fcharisme.png",
+  "presentation": "<p>Bienvenue dans cette formation en 12 jours conçue pour faire émerger le leader qui sommeille en toi. Que tu sois introverti·e ou extraverti·e, le leadership est une compétence que l’on peut développer, tout comme le charisme.</p><p>Être un·e bon·ne leader, ce n’est pas dominer, c’est inspirer, motiver et donner confiance. Ce programme t’aidera à affirmer ta présence, clarifier ta vision et mieux influencer de façon authentique et bienveillante.</p><p>Tu vas découvrir :</p><ul><li>Les fondamentaux du leadership personnel</li><li>Des techniques de communication charismatique</li><li>Comment incarner ta vision sans imposture</li><li>Des pratiques simples pour gagner en impact</li></ul><p>Jour après jour, tu vas construire ta posture de leader avec assurance et naturel.</p>",
+  "jours": [
+    {
+      "titre": "Jour 1 - Quel type de leader es-tu ?",
+      "description": "Découvre ton style de leadership actuel et les qualités que tu possèdes déjà. Pour mieux te situer, fais le <a href='../tests/developpementpersonnel/tests.html?test=charisme'>test de leadership et charisme</a> pour identifier ton profil."
+    },
+    {
+      "titre": "Jour 2 - Vision et clarté",
+      "description": "Quel est ton message ? Note une idée ou un objectif que tu veux transmettre ou incarner. Un vrai leader inspire par sa vision."
+    },
+    {
+      "titre": "Jour 3 - Confiance en soi et leadership",
+      "description": "Travaille ta posture, ton regard, ta voix. Incarne un discours de 2 minutes devant un miroir ou un proche, même simple."
+    },
+    {
+      "titre": "Jour 4 - Être un modèle",
+      "description": "Choisis 3 personnes que tu admires. Quelles qualités partagent-elles ? Comment pourrais-tu les incarner à ta manière ?"
+    },
+    {
+      "titre": "Jour 5 - Charisme au quotidien",
+      "description": "Sois présent·e dans une conversation aujourd’hui : écoute vraiment, regarde dans les yeux, souris, reformule. Observe l’impact."
+    },
+    {
+      "titre": "Jour 6 - Prise de parole",
+      "description": "Choisis un sujet qui t’anime et présente-le à voix haute. Utilise le silence, le rythme, le regard. Ton message compte."
+    },
+    {
+      "titre": "Jour 7 - Gérer les critiques",
+      "description": "Note 2 critiques reçues dans le passé. Comment aurais-tu pu y répondre avec calme et leadership ? Entraîne-toi à nouveau."
+    },
+    {
+      "titre": "Jour 8 - Leadership bienveillant",
+      "description": "Sois un appui pour quelqu’un aujourd’hui : propose ton aide, encourage. Le charisme se nourrit aussi de générosité."
+    },
+    {
+      "titre": "Jour 9 - Autorité naturelle",
+      "description": "Fais une demande claire et directe (au travail, en famille, etc.) sans agressivité. Note les effets de cette affirmation posée."
+    },
+    {
+      "titre": "Jour 10 - Cohérence et intégrité",
+      "description": "Choisis une valeur forte pour toi. Durant 24h, prends des décisions uniquement alignées avec cette valeur."
+    },
+    {
+      "titre": "Jour 11 - Créer l’adhésion",
+      "description": "Raconte une histoire vraie qui t’a marqué·e et qui porte un message. Partage-la à quelqu’un. L’émotion crée l’impact."
+    },
+    {
+      "titre": "Jour 12 - Ton plan de leadership",
+      "description": "Rédige un engagement personnel sur la façon dont tu veux exercer ton leadership à l’avenir. Relis-le régulièrement."
+    }
+  ],
+  "lienComplet": {
+    "texte": "Télécharger la formation",
+    "url": "https://votresite.com/formation/leadership"
+  }
+},
+"intelligence": {
+  "titre": "Développer son intelligence émotionnelle",
+  "illustration": "../images/fintelligence.png",
+  "presentation": "<p>Bienvenue dans cette formation dédiée à l’intelligence émotionnelle. Contrairement à ce que l’on pense, ce n’est pas le QI mais le QE – quotient émotionnel – qui détermine souvent notre réussite relationnelle, professionnelle et personnelle.</p><p>Développer son intelligence émotionnelle permet de mieux comprendre ses émotions, de les réguler, et d’interagir de manière plus fluide et empathique avec les autres.</p><p>Ce programme de 12 jours te guidera pas à pas pour :</p><ul><li>Identifier et nommer tes émotions</li><li>Comprendre leur rôle et leur message</li><li>Développer l’écoute, l’empathie et la gestion émotionnelle</li><li>Renforcer ta stabilité intérieure et tes relations</li></ul><p>Chaque jour t’apportera des outils concrets et des réflexions puissantes pour améliorer ton rapport à toi-même et aux autres.</p>",
+  "jours": [
+    {
+      "titre": "Jour 1 - Es-tu connecté·e à tes émotions ?",
+      "description": "Fais le point sur ton rapport aux émotions : les évites-tu ? Les refoules-tu ? Pour mieux te situer, commence par réaliser le <a href='../tests/developpementpersonnel/tests.html?test=intelligence'>test d’intelligence émotionnelle</a>."
+    },
+    {
+      "titre": "Jour 2 - Identifier ses émotions",
+      "description": "Durant ta journée, note chaque émotion ressentie (joie, colère, stress…). Essaie de la nommer précisément, sans jugement."
+    },
+    {
+      "titre": "Jour 3 - Le message des émotions",
+      "description": "Choisis une émotion forte vécue récemment. Que voulait-elle te dire ? Quel besoin ou quelle valeur n’était pas respecté·e ?"
+    },
+    {
+      "titre": "Jour 4 - Accueillir sans réagir",
+      "description": "Lorsqu’une émotion monte, respire profondément. Prends 30 secondes avant de réagir. Observe ce qui change."
+    },
+    {
+      "titre": "Jour 5 - Empathie active",
+      "description": "Écoute quelqu’un aujourd’hui sans l’interrompre. Reformule ce qu’il ou elle ressent. Laisse-toi toucher sincèrement."
+    },
+    {
+      "titre": "Jour 6 - Gérer la colère",
+      "description": "Identifie une situation où tu t’es emporté·e. Rejoue-la mentalement avec calme. Trouve une réponse plus alignée."
+    },
+    {
+      "titre": "Jour 7 - Joie et gratitude",
+      "description": "Note 3 petits moments de joie ou de gratitude vécus aujourd’hui. Prends 2 minutes pour les revivre pleinement."
+    },
+    {
+      "titre": "Jour 8 - Émotions et corps",
+      "description": "Observe où tu ressens tes émotions physiquement (gorge, ventre…). Respire dans ces zones, sans forcer, juste en conscience."
+    },
+    {
+      "titre": "Jour 9 - Poser ses limites",
+      "description": "Choisis une situation où tu t’es senti·e mal à l’aise. Comment pourrais-tu exprimer tes limites de manière claire et respectueuse ?"
+    },
+    {
+      "titre": "Jour 10 - L’impact des émotions sur les décisions",
+      "description": "Repense à une décision prise sous stress ou excitation. Était-elle judicieuse ? Comment y intégrer plus de recul émotionnel ?"
+    },
+    {
+      "titre": "Jour 11 - S’adapter émotionnellement",
+      "description": "Observe ton comportement avec différentes personnes. Adaptes-tu ton attitude avec souplesse ou sur-joues-tu ?"
+    },
+    {
+      "titre": "Jour 12 - Intelligence émotionnelle au quotidien",
+      "description": "Note 3 situations quotidiennes où tu peux pratiquer ce que tu as appris : écoute, régulation, expression… Et engage-toi à le faire."
+    }
+  ],
+  "lienComplet": {
+    "texte": "Télécharger la formation",
+    "url": "https://votresite.com/formation/intelligence"
+  }
+},
+"timidite": {
+  "titre": "Vaincre la timidité et s'exprimer librement",
+  "illustration": "../images/ftimidite.png",
+  "presentation": "<p>Bienvenue dans ce programme conçu pour t’aider à dépasser ta timidité et t’exprimer avec plus d’aisance. La timidité n’est pas une fatalité : elle peut être comprise, apprivoisée, et transformée.</p><p>Grâce à ce parcours en 12 jours, tu vas apprendre à mieux te connaître, à identifier les pensées qui te bloquent, et à développer progressivement des comportements plus affirmés et naturels.</p><p>Ce programme te guidera pour :</p><ul><li>Comprendre les racines de ta timidité</li><li>Développer ta confiance relationnelle</li><li>Pratiquer l’affirmation de soi sans agressivité</li><li>Te libérer du regard des autres et t’exprimer librement</li></ul><p>Chaque jour propose une étape concrète et bienveillante pour reprendre ta place, à ton rythme.</p>",
+  "jours": [
+    {
+      "titre": "Jour 1 - Où en es-tu avec ta timidité ?",
+      "description": "Fais le point sur ton niveau de timidité : dans quelles situations es-tu le plus gêné·e ? Pour mieux te situer, réalise le <a href='../tests/developpementpersonnel/tests.html?test=timidite'>test de la timidité</a>."
+    },
+    {
+      "titre": "Jour 2 - Comprendre ses peurs sociales",
+      "description": "Quelles peurs te viennent quand tu dois t’exprimer ? Être jugé·e ? Rejeté·e ? Note-les et demande-toi si elles sont fondées."
+    },
+    {
+      "titre": "Jour 3 - Changer son dialogue intérieur",
+      "description": "Note les phrases négatives que tu te répètes (ex : 'je suis nul·le'). Transforme-les en messages bienveillants et motivants."
+    },
+    {
+      "titre": "Jour 4 - Oser de petits contacts",
+      "description": "Aujourd’hui, souris à un inconnu, engage une mini-conversation avec un commerçant. Félicite-toi ensuite !"
+    },
+    {
+      "titre": "Jour 5 - Gérer les symptômes physiques",
+      "description": "Observe les signes physiques de ta timidité (rougeurs, voix tremblante…). Respire profondément et accueille-les sans paniquer."
+    },
+    {
+      "titre": "Jour 6 - Se préparer mentalement",
+      "description": "Visualise une situation sociale à venir. Imagine-toi calme, affirmé·e, souriant·e. Ressens les émotions positives liées à cette image."
+    },
+    {
+      "titre": "Jour 7 - Prendre la parole",
+      "description": "Choisis une situation simple où t’exprimer : poser une question, donner un avis. Ne vise pas la perfection, mais le passage à l’action."
+    },
+    {
+      "titre": "Jour 8 - S’affirmer sans s’imposer",
+      "description": "Note une situation où tu n’as pas osé dire ce que tu pensais. Réécris ce que tu aurais voulu dire avec assertivité."
+    },
+    {
+      "titre": "Jour 9 - Le regard des autres",
+      "description": "Observe si tu t’empêches d’agir par peur du jugement. Quels sont les risques réels ? Que se passerait-il si tu t’exprimais ?"
+    },
+    {
+      "titre": "Jour 10 - Se créer un environnement soutenant",
+      "description": "Fréquente des personnes bienveillantes qui t’encouragent. Note 2 personnes à qui tu peux parler sans masque."
+    },
+    {
+      "titre": "Jour 11 - Exprimer ses besoins",
+      "description": "Choisis une situation où tu as tu un besoin ou un ressenti. Comment pourrais-tu l’exprimer avec clarté et respect ?"
+    },
+    {
+      "titre": "Jour 12 - Oser être soi-même",
+      "description": "Fais le point : que ressens-tu aujourd’hui ? Qu’as-tu osé ? Félicite-toi. Note 3 engagements pour continuer à t’exprimer librement."
+    }
+  ],
+  "lienComplet": {
+    "texte": "Télécharger la formation",
+    "url": "https://votresite.com/formation/timidite"
+  }
+}
+}
+  

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mofagicar</title>
+  <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body id="acceuil"><!-- l'id "acceuil" sert de lien interne pour vers l'acceuil-->
+
+<!------------Entête----------->
+<!---------Menu burger--------->
+  <header>
+<span class="menu-burger" onclick="toggleMenu()" onclick="toogleMarge">☰</span>
+   
+<!-----Conteneur du titre------->
+<div class="titre">
+    <img src="images/mofagicar.png" alt="Mofagicar" title=""/>
+</div>
+
+
+
+<!-----icône de recherche------>
+<span class="icone-de-recherche" onclick="toggleIcone()">
+  <img src="images/recherche.png" alt="Rechercher"class="icone-loupe">
+</span>
+
+
+<!--------Barre de Menu---------->
+<div class=".avec-animation"id="barre-menu">
+
+<nav class="liens-menu">
+  <a href="#acceuil">Accueil</a>
+  <a href="#formations">Formations</a>
+  <a href="#tests">Tests</a>
+  <a href="#apropos">À propos</a>
+</nav>
+</div>
+
+<!-------Barre de recherche------>
+<div class=".avec-animation"id="barre-de-recherche">
+<div class="barre-de-recherche-wrapper">
+  <input type="text" id="searchInput" class="barre-de-recherche" placeholder="Rechercher...">
+  <img src="images/croix.png" alt="Effacer" id="clearSearch" class="icone-effacer">
+</div>
+</div>
+<div id="resultats-recherche" class="resultats-recherche"></div>
+</header>
+
+
+<!--Presentation Générale du site-->
+<main id="contenu">
+<div id="grand-titre"><h1>VOS COMPÉTENCES, 12 JOURS À LA FOIS</h1></div>
+<section id="presentation">
+<section id="paragraphe-texte">
+    <h2>1. Mission & Vision</h2>
+    <p><strong>Mission :</strong> Permettre à chacun d’acquérir rapidement et de manière concrète des compétences clés du quotidien, sans passer par des formations longues ou des lectures trop théoriques.</p>
+    <p><strong>Vision :</strong> Devenir la plateforme de référence pour un apprentissage “hands-on” et ludique, adapté au rythme de chacun.</p>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>2. Public cible</h2>
+    <ul>
+      <li><strong>Apprenants autonomes</strong> à la recherche de résultats rapides.</li>
+      <li><strong>Professionnels</strong> souhaitant développer des soft skills (communication, leadership, gestion du stress…).</li>
+      <li><strong>Passionnés</strong> de disciplines variées : musique, programmation, développement personnel, etc.</li>
+    </ul>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>3. Concept clé : l’approche <em>12 jours</em></h2>
+    <ul>
+      <li><strong>12 missions quotidiennes</strong> concentrées sur l’essentiel</li>
+      <li><strong>Progression étape par étape</strong>, sans surcharge théorique</li>
+      <li><strong>Flexibilité totale</strong> : chaque utilisateur avance à son propre rythme, quand il le souhaite</li>
+    </ul>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>4. Fonctionnalités phares</h2>
+    <ul>
+      <li><strong>Modules thématiques</strong> : communication, musique, code, développement personnel…</li>
+      <li><strong>Tests QCM intégrés</strong> : scoring automatique pour mesurer l’évolution</li>
+      <li><strong>Gratuité & Sécurité</strong> : accès libre, hébergement sécurisé (SSL, backups, RGPD-friendly)</li>
+    </ul>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>5. Valeur ajoutée</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ce que vous cherchez…</th>
+          <th>Ce que Mofagicar vous offre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rapidité d’apprentissage</td>
+          <td>Modules de 12 jours, objectifs clairs</td>
+        </tr>
+        <tr>
+          <td>Mesure concrète de vos progrès</td>
+          <td>QCM avec points de mesure de performance</td>
+        </tr>
+        <tr>
+          <td>Flexibilité</td>
+          <td>Disponible 24/7, accessible sur mobile</td>
+        </tr>
+        <tr>
+          <td>Zéro barrière financière</td>
+          <td>100 % gratuit, sans abonnement</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</section>
+
+
+<!--Presentation Générale des formations-->
+<div id="grand-titre"><h1>COMMENT SE PRESENTENT NOS FORMATIONS ?</h1></div>
+<section id="presentationformations">
+<section id="paragraphe-texte">
+    <h2>1. Architecture du parcours</h2>
+    <ol>
+      <li><strong>Douze étapes clairement définies</strong>
+        <ul>
+          <li>Une mission précise et autonome par jour</li>
+          <li>Couvre l’essentiel sans surcharge théorique</li>
+        </ul>
+      </li>
+      <li><strong>Progression cumulative</strong>
+        <ul>
+          <li>Compétences construites pas à pas</li>
+          <li>Chaque jour sert de base à la suite</li>
+        </ul>
+      </li>
+      <li><strong>Flexibilité d’exécution</strong>
+        <ul>
+          <li>Rythme libre : un jour ou plusieurs missions d’un coup</li>
+          <li>Rattrapage simple sans perdre la cohérence</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>2. Routine quotidienne d’apprentissage</h2>
+    <ol>
+      <li><strong>Introduction & Objectif</strong>
+        <ul>
+          <li>Énoncé précis de la mission</li>
+          <li>Mise en situation et bénéfice immédiat</li>
+        </ul>
+      </li>
+      <li><strong>Ressources ciblées</strong>
+        <ul>
+          <li>Vidéo courte, fiche synthétique ou infographie</li>
+          <li>Liens vers outils ou modèles pratiques</li>
+        </ul>
+      </li>
+      <li><strong>Exercice pratique</strong>
+        <ul>
+          <li>Activité hands-on (écrire, enregistrer, coder…)</li>
+          <li>Durée adaptable : 10 à 30 minutes</li>
+        </ul>
+      </li>
+      <li><strong>Auto-évaluation rapide</strong>
+        <ul>
+          <li>Questionnaire à choix multiples ou grille de vérification</li>
+          <li>Score instantané</li>
+        </ul>
+      </li>
+      <li><strong>Feedback personnalisé</strong>
+        <ul>
+          <li>Suggestions pour renforcer les points faibles</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>3. Avantages clés de l’approche</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Caractéristique</th>
+          <th>Bénéfice utilisateur</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Missions courtes et ciblées</td>
+          <td>Maintien de la motivation et de la concentration</td>
+        </tr>
+        <tr>
+          <td>Apprentissage actif</td>
+          <td>Meilleure mémorisation par la pratique</td>
+        </tr>
+        <tr>
+          <td>Feedback quotidien</td>
+          <td>Ajdustements immédiats et personnalisés</td>
+        </tr>
+        <tr>
+          <td>Flexibilité horaire</td>
+          <td>Adaptable aux emplois du temps chargés</td>
+        </tr>
+        <tr>
+          <td>Visualisation des progrès</td>
+          <td>Motivation renforcée par les données</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2 id="formations">4. Conseils pour maximiser vos résultats</h2>
+    <ol>
+      <li><strong>Planifiez votre moment de pratique</strong><br>Bloquez un créneau fixe chaque jour.</li>
+      <li><strong>Immergez-vous pleinement</strong><br>Désactivez les distractions pendant la mission.</li>
+      <li><strong>Documentez votre expérience</strong><br>Prenez des notes sur difficultés et réussites.</li>
+      <li><strong>Revenez en arrière si nécessaire</strong><br>Répétez une mission pour consolider un point mal acquis.</li>
+      <li><strong>Partagez vos progrès</strong><br>Discutez de vos résultats avec la communauté ou un ami.</li>
+    </ol>
+  </section>
+</section>
+
+
+
+<!--Navigation de formations-->
+
+
+<section >
+  <h2 class="titre-navigation">Formations disponibles</h2>
+  <div class="bloc-navigation">
+<div onclick="fdecouvrir()"class="bloc">
+<h2 class="titre-bloc">Découvrir sa personnalité pour mieux avancer
+</h2> <img src="images/fdecouvrir.png" alt="Découvrir sa personnalité pour mieux avancer
+"></div>
+
+<div onclick="fconfiance()"class="bloc">
+<h2 class="titre-bloc">Renforcer sa confiance en soi
+</h2> <img src="images/fconfiance.png" alt="Renforcer sa confiance en soi
+"></div>
+
+<div onclick="fstress()"class="bloc">
+<h2 class="titre-bloc">Gérer son stress et ses émotions avec calme 
+</h2> <img src="images/fstress.png" alt="Gérer son stress et ses émotions avec calme 
+"></div>
+
+<div onclick="fcommunication()"class="bloc"><h2 class="titre-bloc">Améliorer ses relations et sa communication</h2><img src="images/fcommunication.png" alt="Améliorer ses relations et sa communication  
+"></div>
+
+	<div onclick="fproductivite()"class="bloc"><h2 class="titre-bloc">Booster sa productivité</h2> <img src="images/fproductivite.png" alt="Booster sa productivité"></div>
+	
+	<div onclick="fmindset()"class="bloc"> <h2 class="titre-bloc">Adopter un mindset de croissance</h2> <img src="images/fmindset.png" alt="Adopter un mindset de croissance"></div>
+	
+	<div onclick="fdiscipline()"class="bloc"> <h2 class="titre-bloc">Construire une discipline durable</h2> <img src="images/fdiscipline.png" alt="Construire une discipline durable"></div>
+	
+	<div onclick="fcharisme()"class="bloc"> <h2 class="titre-bloc">Devenir un leader naturel et charismatique</h2> <img src="images/fcharisme.png" alt="Devenir un leader naturel et charismatique"></div>
+	
+	<div onclick="fintelligence()"class="bloc"> <h2 class="titre-bloc">Développer son intelligence émotionnelle</h2> <img src="images/fintelligence.png" alt="Développer son intelligence émotionnelle"></div>
+	
+	<div onclick="ftimidite()"class="bloc"> <h2 class="titre-bloc">Vaincre la timidité et s’exprimer librement</h2> <img src="images/ftimidite.png" alt="Vaincre la timidité et s’exprimer librement"></div>
+</section>
+
+
+<!--Presentation de tests-->
+
+<div id="grand-titre"><h1>COMMENT SE PRESENTENT  NOS TESTS ?</h1></div>
+<section id="presentation-tests">
+<section id="paragraphe-texte">
+    <h2>Objectif des tests</h2>
+    <p>Permettre à chaque utilisateur de mesurer objectivement ses acquis, aptitudes et comportements via des questionnaires à choix multiples (QCM) automatisés.</p>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>1. Types de tests proposés</h2>
+    <ul>
+      <li><strong>Tests de compétences</strong> : évaluation pratique (mini-exercices, mises en situation).</li>
+      <li><strong>Tests de connaissance</strong> : vérification des concepts clés vus dans les missions.</li>
+    </ul>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>2. Fonctionnement des QCM et scoring</h2>
+    <ol>
+      <li><strong>Questions à choix multiples</strong> (3–5 options).</li>
+      <li><strong>Pondération</strong> : chaque option rapporte un nombre de points.</li>
+      <li><strong>Calcul automatique</strong> : total converti en score normalisé (0–100).</li>
+      <li><strong>Affichage immédiat</strong> : points obtenus, pourcentage, et comparaison à la moyenne.</li>
+    </ol>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>3. Garantie d’authenticité et de fiabilité</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Critère</th>
+          <th>Mise en œuvre sur Mofagicar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Validité du contenu</strong></td>
+          <td>Questions conçues par des experts et validées en pré-test interne.</td>
+        </tr>
+        <tr>
+          <td><strong>Fidélité</strong></td>
+          <td>Algorithme stable : mêmes réponses donnent mêmes résultats à chaque session.</td>
+        </tr>
+        <tr>
+          <td><strong>Normes psychométriques</strong></td>
+          <td>Formats reconnus (Likert, échelles bipolaires) pour les tests de personnalité.</td>
+        </tr>
+        <tr>
+          <td><strong>Actualisation</strong></td>
+          <td>Révision semestrielle des questions pour rester pertinent.</td>
+        </tr>
+        <tr>
+          <td><strong>Sécurité anti-fraude</strong></td>
+          <td>Randomisation des items, limitation du temps, suivi IP.</td>
+        </tr>
+        <tr>
+          <td><strong>Confidentialité</strong></td>
+          <td>Stockage chiffré, accès personnel.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>4. Parcours de passation</h2>
+    <ol>
+      <li><strong>Sélection du test</strong> depuis le tableau de bord.</li>
+      <li><strong>Briefing</strong> : durée, nombre de questions, consignes.</li>
+      <li><strong>Passation</strong> : interface épurée, navigation claire.</li>
+      <li><strong>Résultats immédiats</strong> : scores et recommandations.</li>
+    </ol>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2 id="tests">5. Valeur ajoutée pour l’utilisateur</h2>
+    <ul>
+      <li><strong>Objectivité</strong> : mesures calibrées et fiables.</li>
+      <li><strong>Transparence</strong> : méthodologie et signification des scores clairement expliquées.</li>
+      <li><strong>Actionnabilité</strong> : recommandations concrètes pour progresser.</li>
+      <li><strong>Suivi longitudinal</strong> : possibilité de repasser les tests pour suivre son évolution.</li>
+    </ul>
+  </section>
+
+
+ <!--Navigation de tests-->
+
+<section >
+  <h2 class="titre-navigation">Tests disponibles</h2>
+  <div class="bloc-navigation">
+<div onclick="testPersonnalite()"class="bloc"><h2 class="titre-bloc">Test de Personnalité</h2><img src="images/testpersonnalite.png" alt="Test de Personnalité"></div>
+
+<div id="apropos"onclick="testConfiance()"class="bloc"><h2 class="titre-bloc">Test de Confiance en Soi</h2><img src="images/testconfiance.png" alt="Test de Confiance en soi"></div>
+
+<div onclick="testStress()"class="bloc"><h2 class="titre-bloc">Test de Gestion du stress et des émotions</h2><img src="images/stress.png" alt="Test de Gestion du stress et des émotions"></div>
+
+<div onclick="testCommunication()"class="bloc"><h2 class="titre-bloc">Test de Communication et relations interpersonnelles</h2><img src="images/communication.png" alt="Test de Communication et relations interpersonnelles"></div>
+
+	<div onclick="testProductivite()"class="bloc"><h2 class="titre-bloc">Test de Productivité et gestion du temps</h2><img src="images/productivite.png" alt="Test de Productivité et gestion du temps"></div>
+	
+	<div onclick="testMindset()"class="bloc"><h2 class="titre-bloc">Test sur le Mindset de croissance et la pensée positive</h2><img src="images/mindset.png" alt="Test sur le Mindset de croissance et la pensée positive"></div>
+	
+	<div onclick="testMotivation()"class="bloc"><h2 class="titre-bloc">Test de Motivation et discipline</h2><img src="images/motivation.png" alt="Test de Motivation et discipline"></div>
+	
+	<div onclick="testCharisme()"class="bloc"><h2 class="titre-bloc">Test de Leadership et charisme</h2><img src="images/charisme.png" alt="Test de Leadership et charisme"></div>
+	
+	<div onclick="testIntelligence()"class="bloc"><h2 class="titre-bloc">Test d'Intelligence émotionnelle</h2><img src="images/intelligence.png" alt="Test d'Intelligence émotionnelle"></div>
+	
+	<div onclick="testTimidite()"class="bloc"><h2 class="titre-bloc">Test de la Timidité</h2><img src="images/timidite.png" alt="Test de la Timidité"></div>
+</section>
+
+
+<!------À Propos du site------->
+<div id="grand-titre">
+<h1>À propos de Mofagicar</h1>
+    <p>Plateforme d’apprentissage pratique, gratuite et sécurisée</p>
+  </div>
+<section>
+  <section id="paragraphe-texte">
+    <h2>1. Origine du projet</h2>
+    <p>Né d’une frustration face aux formations longues et trop théoriques, Mofagicar a été imaginé pour proposer une alternative centrée sur l’action et l’autonomie. Chaque concept s’appuie sur la méthode éprouvée des “12 jours” pour garantir un apprentissage rapide et durable.</p>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>2. Mission</h2>
+    <ul>
+      <li><strong>Rendre l’apprentissage concret :</strong> favoriser la mise en pratique dès le premier jour.</li>
+      <li><strong>Garantir la motivation :</strong> missions courtes, feedback instantané, visualisation des progrès.</li>
+      <li><strong>Offrir l’accessibilité :</strong> 100 % gratuit, sans engagement, disponible sur tous les appareils.</li>
+    </ul>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>3. Vision</h2>
+    <p>Créer un écosystème d’apprenants et de créateurs de contenu où chacun peut, à son tour, être formateur, partager ses bonnes pratiques et co-construire des parcours de qualité. À terme, Mofagicar souhaite fédérer une communauté internationale autour du “learning by doing”.</p>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>4. Valeurs fondamentales</h2>
+    <ul>
+      <li><strong>Pragmatisme :</strong> chaque ressource est conçue pour être immédiatement utile.</li>
+      <li><strong>Transparence :</strong> méthodes, notes et algorithmes expliqués clairement.</li>
+      <li><strong>Bienveillance :</strong> accompagnement non jugeant, encouragement à l’effort.</li>
+      <li><strong>Innovation :</strong> révision continue des contenus et intégration de nouvelles approches pédagogiques.</li>
+    </ul>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>5. L’équipe</h2>
+    <ul>
+      <li><strong>Fondateur &amp; CEO :</strong> visionnaire de la méthode 12 jours.</li>
+      <li><strong>Responsable pédagogique :</strong> expert en sciences de l’éducation, garant de la qualité des contenus.</li>
+      <li><strong>Développeurs &amp; Designers :</strong> assurent l’expérience utilisateur, l’interface et la sécurité.</li>
+      <li><strong>Community Manager :</strong> anime la plateforme, modère et fédère la communauté.</li>
+    </ul>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>6. Partenariats &amp; collaborations</h2>
+    <p>Mofagicar collabore avec des formateurs indépendants, des experts métiers et des institutions académiques pour enrichir continuellement ses modules et garantir la validité scientifique et pratique des tests.</p>
+  </section>
+
+  <section id="paragraphe-texte">
+    <h2>7. Contact &amp; contribution</h2>
+    <p>Vous avez une idée de module, souhaitez partager un retour d’expérience ou rejoindre l’équipe ?</p>
+    <ul>
+      <li><strong>Email :</strong> <a href="mailto:mofagicar@gmail.com">mofagicar@gmail.com</a></li>
+      <li><strong>Formulaire de contribution :</strong> accessible depuis l’interface, rubrique “Proposez un module”.</li>
+    </ul>
+  </section>
+</section>
+</main>
+
+<!--------Pied de page-------->
+
+
+<footer>
+<div id="footer-container"></div>
+</nav>
+</footer>
+</body>
+</html>

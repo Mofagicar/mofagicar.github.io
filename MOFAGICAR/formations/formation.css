@@ -1,0 +1,226 @@
+html {
+  scroll-behavior: smooth;
+}
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  overflow-x: hidden;
+opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+button {
+  outline: none;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* En-tête fixe avec bouton retour */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 1px transparent;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  z-index: 1000;
+  background-color: transparent;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#back-button {
+  width: 24px;
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+/* Barre de titre affichée au scroll */
+#barre-de-titre {
+  height: auto;
+  background: #ff6600;
+  border: 1px solid #f0f2f5;
+  border-right-color: #ff6600;
+  
+  width: calc(100% - 150px);
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+/* Illustration dynamique */
+.illustration {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ff6600;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: calc(100% - 150px);
+  margin: 0px auto; /* Laisse l'espace pour l'entête */
+  height: 200px;
+  overflow: hidden;
+}
+
+/* Présentation du cours */
+.presentation {
+  background: white;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+/* Conteneur des boutons de jour */
+#buttons-container {
+  align-items: center;
+  margin: 0 20px;
+}
+
+/* Boutons jour */
+.jour-bouton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff6600;
+  color: white;
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+text-align:left;
+}
+
+/* flèche vers le bas sur bouton jour*/
+
+.icone-down {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+}
+
+/* Description jour */
+.jour-description {
+  display: none;
+  margin-bottom: 1rem;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border-left: 4px solid #ff6600;
+  border-radius: 8px;
+  font-size: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Lien vers cours complet */
+.livre-lien-container {
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  padding: 10px;
+}
+
+/* bouton pour accéder à la formation */
+.acces-formation-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* icone du livre sur bouton d'accès à la formation */
+.icone-livre {
+  width: 20px;
+  height: auto;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* Pied de page */
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.pied-de-page {
+  background: #ff6600;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.infos-pied-de-page {
+  margin: 20px;
+}
+
+.progression-wrapper {
+  margin-top: 15px;
+}
+
+.progression-checkbox {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
+
+/* Style de base */
+.progression-checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: #ff6600; /* Change la couleur principale sur les navigateurs modernes */
+  cursor: pointer;
+}
+
+/* Optionnel pour certains navigateurs qui ne supportent pas accent-color */
+.progression-checkbox:checked {
+  outline: none; /* bordure colorée */
+  background-color: #ff6600;
+  border: none;
+}
+
+/* icone validation des jours */
+.icone-check {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 6px;
+}

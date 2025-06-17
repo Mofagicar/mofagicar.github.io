@@ -1,0 +1,684 @@
+{
+  "tests": [
+{
+  "id": "personnalite",
+  "titre": "Test de Personnalité",
+  "image": "../../images/testpersonnalite.png",
+  "description": "<p>Ce questionnaire mesure les <strong>cinq dimensions fondamentales de la personnalité</strong> : <strong>l’extraversion</strong> (la tendance à s’extérioriser et à passer à l’action), <strong>l’agréabilité</strong> (la bienveillance et le désir d’aider les autres), <strong>le névrosisme</strong> (l’instabilité émotionnelle et la propension aux émotions négatives), <strong>la conscience</strong> (le sens des responsabilités, le besoin de réussite et l’implication dans le travail), et <strong>l’ouverture</strong> (la curiosité intellectuelle et l’attrait pour les expériences nouvelles). Ce test s’adresse aussi bien aux <strong>enfants</strong> (à partir de six ans) qu’aux <strong>adultes</strong>.</p><p>Pour chaque affirmation, vous devez choisir la réponse qui vous <strong>correspond le mieux</strong>. Chaque réponse est associée à un certain nombre de points : <strong>Tout à fait vrai</strong> vaut <strong>4 points</strong>, <strong>Plutôt vrai</strong> vaut <strong>3 points</strong>, <strong>Plutôt faux</strong> vaut <strong>2 points</strong> et <strong>Tout à fait faux</strong> vaut <strong>1 point</strong>. À la fin du questionnaire, les points seront additionnés pour chaque dimension afin d’obtenir votre <strong>profil de personnalité</strong>.</p>",
+  "dimensions": [
+    {
+      "id": "extraversion",
+      "titre": "Extraversion",
+      "description": "<p>Cette dimension correspond à un engagement important dans la vie sociale.</p><p>Plus votre score est faible, plus vous êtes introverti(e) et peu expansif(ve). Vous avez tendance à être calme, modéré(e) et peu impliqué(e) dans la vie des autres. La plupart du temps, vous préférez être seul(e).</p><p>Si votre score est élevé, vous êtes plein d’énergie et ressentez fréquemment des émotions positives. Vous avez tendance à être enthousiaste et actif(ve). Vous êtes très à l’aise en groupe et avez tendance à attirer l’attention sur vous.</p>",
+      "affirmations": [
+        "J’aime faire des activités variées et nouvelles.",
+        "J’aime plaisanter et m’amuser avec les autres.",
+        "Je suis très sociable et me fais facilement des amis.",
+        "Je dis aux autres ce que je pense.",
+        "Je parle facilement, même avec des inconnus."
+      ]
+    },
+    {
+      "id": "agreabilite",
+      "titre": "Agréabilité",
+      "description": "<p>Cette dimension reflète la recherche de l’harmonie et du consensus dans les relations avec autrui.</p><p>Si votre score est faible, vous avez tendance à douter des intentions des autres. Vous préférez entrer en compétition plutôt que de coopérer, et vous défendez davantage vos intérêts personnels que ceux du groupe.</p><p>Plus votre score est élevé, plus vous êtes prévenant(e), amical(e), serviable et prêt(e) à trouver un terrain d’entente en cas de conflit. Sensible, vous êtes digne de confiance et foncièrement altruiste.</p>",
+      "affirmations": [
+        "J’aide les autres quand ils ont besoin de moi.",
+        "J’aime faire plaisir à ma famille et mes amis.",
+        "Je suis poli(e) et respectueux(se) quand je parle aux autres.",
+        "Je pense que la plupart des personnes sont honnêtes et gentilles.",
+        "Je partage mes affaires avec mes amis."
+      ]
+    },
+    {
+      "id": "conscience",
+      "titre": "Conscience",
+      "description": "<p>Cette dimension concerne la façon dont on gère ses pulsions. Elle prend en compte l’autodiscipline et le sens de l’ordre.</p><p>Si votre score est faible, vous éprouvez beaucoup de plaisir à pratiquer des activités de courte durée et avez des difficultés à rester concentré(e) sur vos objectifs. Impulsif(ve), vous êtes perçu(e) comme une personne amusante en société.</p><p>Si votre score est élevé, vous savez éviter les difficultés et atteignez facilement vos objectifs grâce à votre capacité d’anticipation, votre organisation et votre volonté de réussir. Vous êtes une personne prudente, fiable, réfléchie et déterminée.</p>",
+      "affirmations": [
+        "Je suis fidèle aux engagements que je prends.",
+        "Je m’investis beaucoup dans tout ce que j’entreprends.",
+        "Je travaille dur jusqu’à ce que j’obtienne ce que je souhaite.",
+        "Je suis respectueux(se) des règles et des interdits.",
+        "Je fais les choses avec soin et vérifie que mon travail est bien fait."
+      ]
+    },
+    {
+      "id": "nevrosisme",
+      "titre": "Névrosisme",
+      "description": "<p>Cette dimension reflète les sentiments négatifs et la stabilité émotionnelle.</p><p>Plus votre score est faible, plus vous êtes émotionnellement stable. Vous êtes généralement calme, d’humeur égale et détendu(e). Vous affrontez les situations stressantes sans vous déstabiliser, avec confiance.</p><p>Si votre score est élevé, vous ressentez fréquemment de l’anxiété, de la colère ou de la peur. Vous êtes très réactif(ve) émotionnellement. Vous avez tendance à interpréter des situations ordinaires comme menaçantes et à percevoir des événements mineurs comme insurmontables.</p>",
+      "affirmations": [
+        "Je m’inquiète et m’angoisse très facilement, même pour des choses sans importance.",
+        "Je me vexe souvent.",
+        "Je me dispute facilement avec les autres pour des choses sans importance.",
+        "Je suis souvent de mauvaise humeur.",
+        "Je me sens triste."
+      ]
+    },
+    {
+      "id": "ouverture",
+      "titre": "Ouverture",
+      "description": "<p>Cette dimension caractérise votre propension à l’imagination et à la créativité.</p> <p>Si votre score est faible, vous avez peu de centres d’intérêt et privilégiez les aspects pratiques. Vous préférez ce qui a déjà fait ses preuves plutôt que la nouveauté.</p> <p>Plus votre score est élevé, plus vous êtes curieux(se), appréciez l’art et les activités non conventionnelles. Vous écoutez vos sentiments et avez tendance à penser et agir de façon personnelle, parfois non conformiste. Vous êtes indépendant(e) dans vos jugements.</p>",
+      "affirmations": [
+        "Je me cultive en lisant et en regardant des émissions scientifiques ou culturelles à la télévision.",
+        "J’ai beaucoup d’imagination.",
+        "J’aime me tenir informé(e) et savoir ce qui se passe dans le monde.",
+        "J’aimerais beaucoup voyager et découvrir les coutumes et les habitudes de vie des autres pays.",
+        "J’aime connaître et apprendre des choses nouvelles."
+      ]
+    }
+  ]
+},
+{
+  "id": "confiance",
+  "titre": "Test de Confiance en Soi",
+  "image": "../../images/testconfiance.png",
+  "description": "<p>Ce questionnaire évalue <strong>cinq grandes dimensions de la confiance en soi</strong> : <strong>l’affirmation de soi</strong> (la capacité à s’exprimer et à s’affirmer dans les interactions), <strong>l’estime de soi</strong> (la perception de sa propre valeur), <strong>la crainte du jugement</strong> (la sensibilité au regard des autres), <strong>l’initiative</strong> (la capacité à agir et à prendre des décisions de manière autonome), et <strong>l’image de soi</strong> (la manière dont on se voit physiquement, mentalement et émotionnellement).</p><p>Ce test s’adresse aussi bien aux <strong>adolescents</strong> qu’aux <strong>adultes</strong> souhaitant mieux se connaître.</p><p>Pour chaque affirmation, choisissez la réponse qui vous <strong>correspond le mieux</strong>. Chaque réponse correspond à un nombre de points : <strong>Tout à fait vrai</strong> vaut <strong>4 points</strong>, <strong>Plutôt vrai</strong> vaut <strong>3 points</strong>, <strong>Plutôt faux</strong> vaut <strong>2 points</strong>, et <strong>Tout à fait faux</strong> vaut <strong>1 point</strong>.</p><p>À la fin du questionnaire, les points seront additionnés pour chaque dimension afin d’obtenir votre <strong>niveau de confiance en vous</strong>.</p>",
+  "dimensions": [
+    {
+      "id": "affirmation",
+      "titre": "Affirmation de soi",
+      "description": "<p>Cette dimension reflète votre capacité à vous exprimer librement, à défendre vos opinions et à poser des limites dans vos relations avec les autres. Elle correspond à la faculté de s’affirmer sans agressivité, en respectant à la fois ses besoins et ceux des autres.</p> <p>Plus votre score est faible, plus vous avez tendance à vous effacer ou à éviter les conflits. Vous pouvez avoir des difficultés à dire non, à exprimer vos désaccords ou à prendre votre place dans un groupe. Vous privilégiez souvent l’harmonie au détriment de vos propres besoins.</p> <p>Si votre score est élevé, vous êtes capable de vous exprimer clairement et de défendre vos idées, même dans des situations inconfortables. Vous osez dire ce que vous pensez, poser des limites, et vous vous sentez légitime dans vos interactions. Vous êtes à l’aise pour affirmer votre point de vue tout en respectant celui des autres.</p>",
+      "affirmations": [
+        "Je parviens à exprimer mes opinions, même si elles sont différentes de celles des autres.",
+        "Je sais dire non sans me sentir coupable.",
+        "Je me fais facilement entendre dans les discussions de groupe.",
+        "J’ose exprimer mes désaccords même face à des personnes d’autorité.",
+        "Je me sens à l’aise pour défendre mes idées, même si cela peut créer des tensions."
+      ]
+    },
+    {
+      "id": "estime",
+      "titre": "Estime de soi",
+      "description": "<p>Cette dimension correspond à la perception que vous avez de votre propre valeur, de vos capacités et de votre dignité. Elle reflète votre confiance intérieure et votre manière de vous juger, indépendamment du regard des autres.</p> <p>Plus votre score est faible, plus vous avez tendance à douter de vous-même. Vous pouvez vous sentir inférieur(e) aux autres, être trop critique envers vous-même ou avoir du mal à reconnaître vos qualités. Vous attendez souvent la validation extérieure pour vous sentir légitime.</p> <p>Si votre score est élevé, vous avez une image positive de vous-même. Vous reconnaissez vos forces sans vous surestimer, et vous vous sentez digne de respect et de réussite. Vous vous faites confiance et êtes capable de vous valoriser, même face à l’échec ou à la critique.</p>",
+      "affirmations": [
+        "Je pense que j’ai autant de valeur que les autres.",
+        "Je suis fier(e) de ce que je suis, même si tout n’est pas parfait.",
+        "Je suis capable de reconnaître mes qualités sans attendre qu’on me les rappelle.",
+        "Je me sens à la hauteur dans la plupart des situations de la vie quotidienne.",
+        "Je reste confiant(e) même quand je fais face à des critiques ou à des échecs."
+      ]
+    },
+    {
+      "id": "jugement",
+      "titre": "Crainte du jugement",
+      "description": "<p>Cette dimension reflète votre sensibilité au regard des autres, votre peur d’être jugé(e), rejeté(e) ou mal perçu(e). Elle évalue dans quelle mesure l’opinion d’autrui influence votre comportement ou votre estime personnelle.</p> <p>Plus votre score est faible, plus vous vous sentez libre d’agir sans craindre l’opinion des autres. Vous acceptez que tout le monde ne vous apprécie pas et cela n’affecte pas votre confiance. Vous êtes à l’aise avec l’idée de vous montrer tel(le) que vous êtes.</p> <p>Si votre score est élevé, vous accordez beaucoup d’importance au regard des autres. Vous craignez souvent d’être mal jugé(e), ce qui peut vous empêcher d’agir ou de vous exprimer librement. Vous cherchez à plaire ou à éviter les critiques, parfois au détriment de vos propres besoins.</p>",
+      "affirmations": [
+        "J’ai peur de ce que les autres peuvent penser de moi.",
+        "Je fais souvent attention à ne pas déplaire, même si cela va contre mes envies.",
+        "Je me retiens parfois de parler ou d’agir par peur d’être jugé(e).",
+        "L’idée de faire une erreur en public me met très mal à l’aise.",
+        "Je cherche souvent l’approbation des autres avant de me sentir sûr(e) de moi."
+      ]
+    },
+    {
+      "id": "initiative",
+      "titre": "Initiative",
+      "description": "<p>Cette dimension mesure votre capacité à agir de votre propre chef, à prendre des décisions et à entreprendre des actions sans attendre d’être poussé(e) par les autres. Elle reflète la confiance que vous avez en votre autonomie et votre motivation à passer à l’action.</p> <p>Plus votre score est faible, plus vous avez tendance à hésiter, à remettre les choses à plus tard ou à attendre qu’on vous dise quoi faire. Vous pouvez manquer d’élan personnel ou craindre de prendre de mauvaises décisions. Il vous est parfois difficile de vous lancer sans encouragement extérieur.</p> <p>Si votre score est élevé, vous avez tendance à prendre les devants. Vous vous sentez capable de décider seul(e), d’agir rapidement et de vous adapter aux situations. Vous avez confiance en votre capacité à faire face, même en terrain inconnu, et vous n’avez pas peur de prendre des initiatives.</p>",
+      "affirmations": [
+        "Je prends facilement les devants quand une décision doit être prise.",
+        "Je me lance dans de nouveaux projets sans attendre que l’on me pousse.",
+        "Je sais agir même dans des situations où je ne maîtrise pas tout.",
+        "Je préfère prendre l’initiative plutôt que d’attendre qu’on me dise quoi faire.",
+        "Je me sens capable de faire face aux imprévus sans avoir besoin d’aide immédiate."
+      ]
+    },
+    {
+      "id": "image",
+      "titre": "Image de soi",
+      "description": "<p>Cette dimension reflète la perception que vous avez de votre apparence, de votre comportement et de votre manière d’être perçu(e) par les autres. Elle renvoie à la manière dont vous vous voyez, vous acceptez et vous appréciez dans votre globalité.</p> <p>Plus votre score est faible, plus vous avez tendance à être insatisfait(e) de votre image personnelle. Vous êtes souvent critique envers vous-même et vous pouvez ressentir de la gêne ou du malaise dans certaines situations sociales. Vous avez du mal à vous apprécier tel(le) que vous êtes.</p> <p>Si votre score est élevé, vous avez une image positive et bienveillante de vous-même. Vous vous acceptez avec vos qualités et vos défauts, et vous vous sentez à l’aise dans votre manière d’être et de paraître. Vous vous voyez comme une personne digne d’estime et de respect.</p>",
+      "affirmations": [
+        "Je me sens bien dans ma peau, même si je ne suis pas parfait(e).",
+        "Je suis à l’aise avec l’image que je renvoie aux autres.",
+        "Je m’accepte tel(le) que je suis, sans me juger trop durement.",
+        "Je me sens libre d’être moi-même, même si cela ne plaît pas à tout le monde.",
+        "Je suis capable de voir ce qu’il y a de positif en moi, au-delà de mon apparence."
+      ]
+    }
+  ]
+},
+{
+  "id": "stress",
+  "titre": "Test de Gestion du Stress et des émotions",
+  "image": "../../images/stress.png",
+  "description": "<p>Ce questionnaire évalue <strong>cinq dimensions clés</strong> de votre rapport au stress et à vos émotions : <strong>la gestion du stress</strong> (votre capacité à faire face aux pressions et imprévus), <strong>la régulation émotionnelle</strong> (votre aptitude à contrôler et moduler vos émotions), <strong>la résilience</strong> (votre capacité à rebondir après des difficultés), <strong>la tolérance à la frustration</strong> (votre faculté à supporter les situations contrariantes), et <strong>la conscience émotionnelle</strong> (votre capacité à reconnaître et comprendre vos propres émotions).</p><p>Pour chaque affirmation, choisissez la réponse qui vous <strong>correspond le mieux</strong>. Chaque réponse est associée à un certain nombre de points : <strong>Tout à fait vrai</strong> vaut <strong>4 points</strong>, <strong>Plutôt vrai</strong> vaut <strong>3 points</strong>, <strong>Plutôt faux</strong> vaut <strong>2 points</strong>, et <strong>Tout à fait faux</strong> vaut <strong>1 point</strong>.</p><p>À la fin du questionnaire, les points seront additionnés pour chaque dimension afin de déterminer votre <strong>niveau de gestion du stress et des émotions</strong>.</p>",
+  "dimensions": [
+    {
+      "id": "gestion",
+      "titre": "Gestion du stress",
+      "description": "<p>Cette dimension reflète votre capacité à faire face à la pression, aux situations imprévues et aux contraintes de la vie quotidienne. Elle mesure dans quelle mesure vous parvenez à rester calme et efficace face aux difficultés.</p> <p>Plus votre score est faible, plus vous avez tendance à vous sentir débordé(e) par les événements stressants. Vous pouvez être vite submergé(e), ressentir une perte de contrôle ou éprouver des difficultés à prendre du recul. Le stress peut affecter votre bien-être émotionnel et vos performances.</p> <p>Si votre score est élevé, vous avez une bonne tolérance au stress. Vous êtes capable de garder votre sang-froid même dans les situations tendues, de hiérarchiser les priorités et de trouver des solutions avec calme et lucidité. Vous savez gérer la pression sans vous laisser envahir.</p>",
+      "affirmations": [
+        "Je parviens à garder mon calme dans les situations stressantes.",
+        "Je sais garder le contrôle même lorsque je suis sous pression.",
+        "Je fais face aux imprévus sans me laisser envahir par l’anxiété.",
+        "Je me sens capable de gérer efficacement les périodes de tension.",
+        "Je reste concentré(e) et lucide, même en cas de surcharge ou d’urgence."
+      ]
+    },
+    {
+      "id": "regulation",
+      "titre": "Régulation émotionnelle",
+      "description": "<p>Cette dimension reflète votre capacité à gérer, moduler et exprimer vos émotions de manière adaptée, que ce soit dans les situations de stress, de frustration ou d'interaction sociale. Elle mesure dans quelle mesure vous parvenez à rester stable émotionnellement et à éviter les réactions excessives.</p> <p>Plus votre score est faible, plus vous avez tendance à être submergé(e) par vos émotions. Vous pouvez passer rapidement de la tristesse à la colère ou à l’anxiété, et avoir du mal à retrouver votre calme. Vous vous sentez parfois dépassé(e) par ce que vous ressentez.</p> <p>Si votre score est élevé, vous savez accueillir vos émotions sans vous laisser envahir. Vous êtes capable de prendre du recul, de réguler vos réactions émotionnelles et d’adopter un comportement adapté à la situation. Vous gérez vos émotions avec maturité et équilibre.</p>",
+      "affirmations": [
+        "Je parviens à garder mon sang-froid lorsque je ressens une émotion forte.",
+        "Je sais exprimer mes émotions sans qu’elles prennent le dessus.",
+        "Je suis capable de prendre du recul face à une situation émotionnellement chargée.",
+        "Je gère mes émotions de manière constructive, même dans les moments difficiles.",
+        "Je reste maître de mes réactions, même quand je suis bouleversé(e)."
+      ]
+    },
+    {
+      "id": "resilience",
+      "titre": "Résilience",
+      "description": "<p>Cette dimension reflète votre capacité à faire face aux difficultés, à rebondir après un échec ou une situation éprouvante, et à rester motivé(e) malgré les obstacles. Elle évalue votre force intérieure et votre aptitude à vous adapter aux épreuves de la vie.</p> <p>Plus votre score est faible, plus vous avez tendance à être affecté(e) durablement par les événements négatifs. Vous pouvez vous décourager facilement, avoir du mal à retrouver de l’énergie ou à reprendre confiance après un échec.</p> <p>Si votre score est élevé, vous savez tirer des enseignements de l’adversité et garder espoir même dans les moments difficiles. Vous faites preuve de courage, d’endurance et de capacité à rebondir. Vous affrontez les défis avec persévérance et confiance.</p>",
+      "affirmations": [
+        "Je parviens à me relever rapidement après un échec ou une déception.",
+        "Je garde confiance en l’avenir, même lorsque je traverse une période difficile.",
+        "Je sais tirer des leçons de mes épreuves personnelles.",
+        "Je fais preuve de courage face aux obstacles de la vie.",
+        "Je reste motivé(e) malgré les difficultés que je rencontre."
+      ]
+    },
+    {
+      "id": "frustration",
+      "titre": "Tolérance à la frustration",
+      "description": "<p>Cette dimension mesure votre capacité à supporter les contrariétés, les échecs ou les délais sans réagir de manière excessive. Elle reflète votre aptitude à rester stable et patient(e) face à l’insatisfaction ou à l’imprévu.</p> <p>Plus votre score est faible, plus vous avez tendance à réagir impulsivement ou émotionnellement lorsqu’une situation ne se déroule pas comme prévu. Vous pouvez ressentir de l’irritation, de la colère ou de l’impatience face aux obstacles ou à la lenteur des choses.</p> <p>Si votre score est élevé, vous savez garder votre calme et votre patience face aux difficultés. Vous êtes capable d’attendre, de relativiser et de gérer les frustrations avec maturité, sans perdre le contrôle de vos émotions.</p>",
+      "affirmations": [
+        "Je reste calme lorsqu’une situation ne se déroule pas comme prévu.",
+        "Je suis capable de faire face à l’attente sans m’agacer.",
+        "Je gère bien mes émotions lorsque je rencontre un obstacle.",
+        "Je fais preuve de patience même quand les choses avancent lentement.",
+        "Je sais accepter l’échec sans me décourager ou me mettre en colère."
+      ]
+    },
+    {
+      "id": "conscience",
+      "titre": "Conscience émotionnelle",
+      "description": "<p>Cette dimension reflète votre capacité à identifier, comprendre et nommer vos émotions. Elle concerne aussi bien les émotions agréables que désagréables, et joue un rôle essentiel dans votre équilibre psychologique et vos relations.</p> <p>Plus votre score est faible, plus vous avez tendance à éprouver des émotions sans toujours savoir les reconnaître ou les exprimer. Vous pouvez avoir du mal à mettre des mots sur ce que vous ressentez, ou à comprendre l’origine de vos réactions émotionnelles.</p> <p>Si votre score est élevé, vous êtes capable de reconnaître rapidement ce que vous ressentez et d’identifier les causes de vos émotions. Vous êtes à l’aise pour en parler avec les autres et utilisez cette conscience pour mieux vous comprendre et mieux interagir avec votre entourage.</p>",
+      "affirmations": [
+        "Je suis capable de reconnaître ce que je ressens dans différentes situations.",
+        "Je parviens à identifier les causes de mes émotions.",
+        "Je sais mettre des mots sur mes ressentis émotionnels.",
+        "Je comprends les variations de mon humeur au fil de la journée ou de la semaine.",
+        "Je peux expliquer à quelqu’un ce que je ressens et pourquoi je le ressens."
+      ]
+    }
+  ]
+},
+{
+  "id": "communication",
+  "titre": "Test de Communication et relations interpersonnelles",
+  "image": "../../images/communication.png",
+  "description": "<p>Ce questionnaire explore <strong>cinq dimensions essentielles</strong> de la communication et de la qualité des relations interpersonnelles : <strong>l’écoute active</strong> (la capacité à prêter attention à l’autre de manière attentive et bienveillante), <strong>l’expression claire</strong> (la faculté de communiquer ses idées et émotions avec clarté et respect), <strong>l’empathie</strong> (la capacité à se mettre à la place de l’autre et à ressentir ce qu’il vit), <strong>la gestion des conflits</strong> (l’aptitude à résoudre les désaccords de manière constructive), et <strong>l’ouverture relationnelle</strong> (l’aisance à établir et entretenir des relations positives).</p><p>Pour chaque affirmation, choisissez la réponse qui vous <strong>ressemble le plus</strong>. Chaque réponse est associée à un certain nombre de points : <strong>Tout à fait vrai</strong> vaut <strong>4 points</strong>, <strong>Plutôt vrai</strong> vaut <strong>3 points</strong>, <strong>Plutôt faux</strong> vaut <strong>2 points</strong>, et <strong>Tout à fait faux</strong> vaut <strong>1 point</strong>.</p><p>À la fin du questionnaire, les points sont additionnés pour chaque dimension afin d’évaluer votre <strong>niveau de compétence relationnelle</strong> dans ces cinq domaines.</p>",
+  "dimensions": [
+    {
+      "id": "ecoute",
+      "titre": "Écoute active",
+      "description": "<p>Cette dimension reflète votre capacité à écouter attentivement et avec bienveillance ce que l’autre exprime, que ce soit verbalement ou non. Elle inclut la présence mentale, la capacité à reformuler et à montrer de l’intérêt pour ce que dit l’autre.</p> <p>Plus votre score est faible, plus vous avez tendance à interrompre, juger ou être distrait(e) pendant les échanges. Vous pouvez avoir du mal à rester concentré(e) sur l’autre ou à réellement prendre en compte ce qu’il dit.</p> <p>Si votre score est élevé, vous êtes attentif(ve), à l’écoute et présent(e) dans la relation. Vous accordez une réelle attention à l’autre, posez des questions pertinentes, et faites preuve d’une grande disponibilité émotionnelle. L’interlocuteur se sent écouté, compris et respecté.</p>",
+      "affirmations": [
+        "Je laisse l’autre aller au bout de ses phrases sans l’interrompre.",
+        "J’écoute avec attention, même lorsque le sujet ne m’intéresse pas particulièrement.",
+        "Je reformule parfois ce que l’autre dit pour m’assurer d’avoir bien compris.",
+        "Je pose des questions qui montrent que je m’intéresse à ce que l’on me raconte.",
+        "Je suis attentif(ve) au langage non verbal de l’autre (gestes, ton, regard...)."
+      ]
+    },
+    {
+      "id": "expression",
+      "titre": "Expression claire",
+      "description": "<p>Cette dimension évalue votre capacité à exprimer clairement vos idées, besoins et émotions, tout en tenant compte de votre interlocuteur. Elle concerne à la fois la clarté du message, le respect du ton et l’assertivité (savoir dire ce que l’on pense sans agressivité).</p> <p>Plus votre score est faible, plus vous avez tendance à retenir ce que vous ressentez ou à vous exprimer de manière confuse. Vous pouvez craindre de déranger ou de mal formuler vos pensées, ce qui complique vos échanges.</p> <p>Si votre score est élevé, vous parlez de manière claire, directe et respectueuse. Vous savez exprimer vos besoins et opinions même dans des contextes sensibles. Votre communication est fluide, et vos interlocuteurs vous comprennent facilement.</p>",
+      "affirmations": [
+        "Je parviens à dire ce que je pense sans blesser les autres.",
+        "J’arrive à formuler clairement ce que je ressens, même dans des situations délicates.",
+        "Je m’exprime avec assurance, même face à des personnes qui m’intimident.",
+        "Quand quelque chose ne me convient pas, je sais le dire de manière posée.",
+        "Je fais attention à adapter mes mots en fonction de la personne à qui je parle."
+      ]
+    },
+    {
+      "id": "empathie",
+      "titre": "Empathie",
+      "description": "<p>Cette dimension mesure votre capacité à comprendre et ressentir ce que l’autre vit, sur le plan émotionnel ou cognitif. Elle repose sur la capacité à se mettre à la place de l’autre et à répondre avec bienveillance et sensibilité.</p> <p>Plus votre score est faible, plus vous avez tendance à rester centré(e) sur vous-même et à minimiser les émotions ou difficultés des autres. Il peut vous être difficile de percevoir ce que vit l’autre ou d’y accorder de l’importance.</p> <p>Si votre score est élevé, vous êtes capable de ressentir ce que l’autre éprouve et de vous montrer compréhensif(ve). Vous savez accueillir les émotions sans juger et vous vous montrez attentif(ve) aux besoins de ceux qui vous entourent.</p>",
+      "affirmations": [
+        "Je suis attentif(ve) aux émotions des personnes autour de moi.",
+        "Quand quelqu’un ne va pas bien, j’essaie de comprendre ce qu’il ressent.",
+        "Je parviens facilement à me mettre à la place des autres.",
+        "Je réagis avec bienveillance quand une personne me confie ses difficultés.",
+        "Je remarque rapidement quand quelqu’un est mal à l’aise ou triste."
+      ]
+    },
+    {
+      "id": "conflits",
+      "titre": "Gestion des conflits",
+      "description": "<p>Cette dimension évalue votre capacité à reconnaître, gérer et résoudre les désaccords de manière constructive. Elle reflète votre aptitude à rester calme, à chercher des solutions équilibrées et à préserver la qualité des relations même en situation tendue.</p> <p>Plus votre score est faible, plus vous avez tendance à éviter ou fuir les conflits, ou au contraire à réagir de manière impulsive. Vous pouvez avoir du mal à dialoguer en cas de désaccord, ce qui peut nuire à la relation.</p> <p>Si votre score est élevé, vous êtes capable de gérer les tensions avec calme et ouverture. Vous cherchez à comprendre le point de vue de l’autre tout en affirmant le vôtre, et vous favorisez des solutions respectueuses pour chacun.</p>",
+      "affirmations": [
+        "Je sais garder mon calme lorsque je suis en désaccord avec quelqu’un.",
+        "Je cherche à comprendre le point de vue de l’autre avant de répondre.",
+        "Je préfère trouver un compromis plutôt que d’imposer mon opinion.",
+        "Je suis capable de discuter sereinement, même dans une situation tendue.",
+        "Je n’évite pas les conflits, mais j’essaie de les résoudre avec respect."
+      ]
+    },
+    {
+      "id": "ouverture",
+      "titre": "Ouverture relationnelle",
+      "description": "<p>Cette dimension reflète votre capacité à aller vers les autres, à nouer des liens facilement et à vous montrer disponible dans la relation. Elle concerne également votre intérêt pour les nouvelles rencontres et votre aisance à établir un contact authentique.</p> <p>Plus votre score est faible, plus vous avez tendance à rester réservé(e), à limiter vos interactions sociales ou à éprouver des difficultés à créer du lien. Vous pouvez avoir besoin de temps ou d’un contexte rassurant pour vous ouvrir à l’autre.</p> <p>Si votre score est élevé, vous êtes naturellement sociable et chaleureux(se). Vous allez facilement vers les autres, vous aimez découvrir de nouvelles personnes et vous vous sentez à l’aise dans la plupart des contextes sociaux.</p>",
+      "affirmations": [
+        "Je vais facilement vers les autres, même si je ne les connais pas.",
+        "Je prends plaisir à faire de nouvelles rencontres.",
+        "Je me sens à l’aise dans les discussions informelles, même en groupe.",
+        "J’aime échanger avec des personnes différentes de moi.",
+        "Je n’ai pas de difficulté à créer du lien avec les gens."
+      ]
+    }
+  ]
+},
+{
+  "id": "productivite",
+  "titre": "Test de Productivité et gestion du temps",
+  "image": "../../images/productivite.png",
+  "description": "<p>Ce questionnaire évalue <strong>cinq dimensions fondamentales</strong> liées à votre efficacité personnelle et à votre rapport au temps : <strong>la planification et l’organisation</strong> (votre capacité à structurer vos journées et à planifier vos tâches), <strong>la concentration et la gestion des distractions</strong> (votre aptitude à rester focalisé(e) sur ce qui compte), <strong>la gestion des priorités</strong> (votre faculté à distinguer l’essentiel de l’accessoire), <strong>le passage à l’action</strong> (votre tendance à agir sans trop procrastiner) et <strong>l’équilibre et énergie</strong> (votre capacité à maintenir votre rythme sans vous épuiser).</p><p>Pour chaque affirmation, choisissez la réponse qui vous <strong>correspond le mieux</strong>. Chaque réponse est associée à un certain nombre de points : <strong>Tout à fait vrai</strong> vaut <strong>4 points</strong>, <strong>Plutôt vrai</strong> vaut <strong>3 points</strong>, <strong>Plutôt faux</strong> vaut <strong>2 points</strong> et <strong>Tout à fait faux</strong> vaut <strong>1 point</strong>.</p><p>À la fin du questionnaire, les points seront additionnés pour chaque dimension afin de déterminer votre <strong>niveau de productivité et de gestion du temps</strong> dans chaque domaine.</p>",
+  "dimensions": [
+    {
+      "id": "planification",
+      "titre": "Planification et organisation",
+      "description": "<p>Cette dimension reflète votre capacité à structurer vos journées, à anticiper les tâches à accomplir et à gérer votre emploi du temps de manière efficace. Elle met en lumière votre sens de l’organisation et votre faculté à planifier vos actions pour atteindre vos objectifs.</p><p>Plus votre score est faible, plus vous avez tendance à fonctionner de manière désorganisée ou improvisée. Vous pouvez avoir des difficultés à prévoir à l’avance, à prioriser ou à suivre un plan structuré. Cela peut entraîner des oublis, du stress ou un sentiment de surcharge.</p><p>Si votre score est élevé, vous êtes organisé(e) et méthodique. Vous planifiez vos journées avec clarté, vous savez où vous allez et vous gagnez du temps en évitant les imprévus. Vous êtes capable de structurer vos objectifs à court et long terme, ce qui vous rend plus serein(e) et efficace.</p>",
+"affirmations": [
+        "Je planifie mes journées à l’avance pour savoir exactement ce que j’ai à faire.",
+        "Je sais organiser mes tâches de manière logique et efficace.",
+        "Je me fixe régulièrement des objectifs à atteindre, à court ou à long terme.",
+        "Je suis capable d’anticiper les imprévus et d’ajuster mon planning si nécessaire.",
+        "Je tiens facilement un planning ou une liste de tâches jusqu’à leur accomplissement."
+      ]
+    },
+    {
+      "id": "concentration",
+      "titre": "Concentration et gestion des distractions",
+      "description": "<p>Cette dimension évalue votre capacité à rester focalisé(e) sur une tâche et à limiter les sources de distraction. Elle reflète votre aptitude à maintenir votre attention dans la durée et à travailler efficacement sans vous disperser.</p><p>Plus votre score est faible, plus vous êtes facilement distrait(e) ou sujet(te) à l’interruption. Vous pouvez avoir du mal à rester concentré(e) longtemps, à terminer ce que vous commencez, ou à éviter les tentations (téléphone, réseaux sociaux, environnement bruyant, etc.).</p><p>Si votre score est élevé, vous parvenez à rester concentré(e) sur ce que vous faites, même en présence de distractions. Vous savez créer un environnement propice au travail, limiter les interruptions et maintenir votre attention jusqu’à la fin d’une tâche. Cela vous permet de gagner du temps et d’être plus productif(ve).</p>",
+"affirmations": [
+        "Je parviens à rester concentré(e) sur une tâche sans me laisser distraire.",
+        "Je limite volontairement les sources de distraction lorsque je travaille.",
+        "Je termine ce que je commence, même lorsque je perds l’envie ou la motivation.",
+        "Je suis capable de me reconcentrer rapidement après une interruption.",
+        "Je travaille dans un environnement propice à la concentration (silence, ordre, outils à portée)."
+      ]
+    },
+    {
+      "id": "priorites",
+      "titre": "Gestion des priorités",
+      "description": "<p>Cette dimension évalue votre capacité à distinguer l’essentiel de l’accessoire, à organiser vos tâches en fonction de leur importance et à agir en conséquence. Elle reflète votre aptitude à prendre des décisions stratégiques dans l’utilisation de votre temps.</p><p>Plus votre score est faible, plus vous avez tendance à vous disperser ou à accorder autant d’énergie à des tâches secondaires qu’à des tâches importantes. Vous pouvez avoir du mal à hiérarchiser vos activités ou à identifier ce qui mérite votre attention en priorité.</p><p>Si votre score est élevé, vous savez faire la différence entre ce qui est urgent, important ou secondaire. Vous accordez votre temps et votre énergie à ce qui a le plus d’impact. Vous priorisez de manière efficace, ce qui vous permet d’atteindre vos objectifs sans vous épuiser.</p>",
+"affirmations": [
+        "Je sais distinguer les tâches urgentes de celles qui peuvent attendre.",
+        "Je commence ma journée par les activités les plus importantes.",
+        "Je sais dire non aux sollicitations qui ne sont pas prioritaires.",
+        "Je hiérarchise mes tâches en fonction de leur impact réel.",
+        "Je ne perds pas de temps sur des détails quand l’essentiel n’est pas encore fait."
+      ]
+    },
+    {
+      "id": "passage_action",
+      "titre": "Motivation et passage à l’action",
+      "description": "<p>Cette dimension reflète votre capacité à vous mettre en mouvement pour atteindre vos objectifs, à persévérer face aux obstacles, et à maintenir votre énergie dans la durée. Elle évalue votre volonté d’agir sans attendre d’être totalement prêt(e) ou d’avoir toutes les conditions réunies.</p><p>Plus votre score est faible, plus vous avez tendance à procrastiner ou à attendre que la motivation vienne avant d’agir. Vous pouvez avoir du mal à vous lancer, à rester constant(e) dans vos efforts ou à passer à l’action sans aide extérieure.</p><p>Si votre score est élevé, vous avez une forte capacité à vous auto-motiver et à agir rapidement. Vous n’attendez pas que tout soit parfait pour avancer, et vous êtes capable de maintenir vos efforts même lorsque c’est difficile ou que la motivation baisse.</p>",
+"affirmations": [
+        "Je suis capable de me mettre rapidement au travail, même quand je n’en ai pas envie.",
+        "Je poursuis mes objectifs même lorsque je rencontre des difficultés.",
+        "Je préfère agir, même imparfaitement, plutôt que de rester bloqué(e) dans la réflexion.",
+        "Je ne remets pas à plus tard les tâches importantes.",
+        "Je sais garder ma motivation sur le long terme, même sans résultats immédiats."
+      ]
+    },
+    {
+      "id": "equilibre",
+      "titre": "Équilibre et gestion de l’énergie",
+      "description": "<p>Cette dimension reflète votre capacité à préserver votre bien-être physique et mental en répartissant votre énergie de manière durable. Elle évalue dans quelle mesure vous savez vous reposer, prendre soin de vous et éviter la surcharge.</p><p>Plus votre score est faible, plus vous avez tendance à vous surmener, à négliger vos besoins fondamentaux ou à aller au bout de vos ressources sans vous ménager. Vous pouvez avoir des difficultés à faire des pauses ou à dire stop quand c’est nécessaire.</p><p>Si votre score est élevé, vous êtes attentif(ve) à votre équilibre personnel. Vous savez quand ralentir, déléguer ou vous accorder du repos pour préserver votre efficacité. Vous maintenez une bonne hygiène de vie et gérez votre énergie de façon durable.</p>",
+"affirmations": [
+        "Je prends régulièrement du temps pour me reposer et me ressourcer.",
+        "Je sais dire non quand je sens que je dépasse mes limites.",
+        "Je veille à équilibrer travail, loisirs et repos dans ma vie quotidienne.",
+        "Je suis attentif(ve) aux signes de fatigue ou de stress pour ajuster mon rythme.",
+        "Je fais des pauses pour recharger mon énergie avant de reprendre une tâche."
+      ]
+    }
+  ]
+},
+{
+  "id": "mindset",
+  "titre": "Test sur le Mindset de croissance et la pensée positive",
+  "image": "../../images/mindset.png",
+  "description": "<p>Ce questionnaire explore <strong>cinq aspects essentiels</strong> d’un état d’esprit tourné vers le <strong>développement personnel</strong>, la <strong>résilience</strong> et l’<strong>optimisme</strong>. Il vous aide à mieux comprendre dans quelle mesure vous adoptez un <strong>mindset de croissance</strong> (la conviction que l’on peut progresser avec le temps et les efforts) et une <strong>pensée positive</strong> (la tendance à percevoir les situations de manière constructive).</p><p>Les cinq dimensions évaluées sont : <strong>la vision de l’effort</strong> (la manière dont vous percevez l’importance du travail et de l’investissement personnel), <strong>la gestion de l’échec</strong> (votre capacité à rebondir après un revers), <strong>l’auto-parole positive</strong> (votre façon de vous parler intérieurement face aux difficultés), <strong>la persévérance</strong> (votre tendance à maintenir l’effort dans la durée malgré les obstacles), et <strong>l’optimisme</strong> (votre façon d’anticiper l’avenir et d’interpréter les événements de la vie).</p><p>Pour chaque affirmation, choisissez la réponse qui vous <strong>correspond le mieux</strong>. Chaque réponse est associée à un certain nombre de points : <strong>Tout à fait vrai</strong> vaut <strong>4 points</strong>, <strong>Plutôt vrai</strong> vaut <strong>3 points</strong>, <strong>Plutôt faux</strong> vaut <strong>2 points</strong>, et <strong>Tout à fait faux</strong> vaut <strong>1 point</strong>.</p><p>À la fin du questionnaire, les points seront additionnés pour chaque dimension afin d’indiquer votre <strong>niveau de mindset de croissance</strong> et de <strong>pensée positive</strong>.</p>",
+  "dimensions": [
+    {
+      "id": "effort",
+      "titre": "Vision de l’effort",
+      "description": "<p>Cette dimension reflète la manière dont vous percevez la valeur de l’effort personnel, du travail et de l’investissement dans l’apprentissage ou l’accomplissement de vos objectifs. Elle évalue si vous considérez les capacités comme évolutives ou figées.</p><p>Plus votre score est faible, plus vous avez tendance à croire que les compétences sont innées, que la réussite dépend principalement du talent ou de la chance, et que les efforts sont souvent vains. Vous pouvez éviter les défis ou abandonner rapidement si les résultats ne sont pas immédiats.</p><p>Si votre score est élevé, vous êtes convaincu(e) que l’on peut progresser par l’effort, l’apprentissage et la persévérance. Vous percevez les difficultés comme des opportunités de croissance et êtes motivé(e) par l’idée de vous améliorer, même face à l’échec.</p>",
+"affirmations": [
+        "Je pense que l’on peut toujours progresser si l’on fait suffisamment d’efforts.",
+        "Face à un échec, je cherche à comprendre ce que je peux améliorer.",
+        "Je crois que la persévérance est plus importante que le talent.",
+        "Lorsque quelque chose me semble difficile, je persévère au lieu d’abandonner.",
+        "Je suis convaincu(e) que chacun peut développer ses capacités avec du travail."
+      ]
+    },
+    {
+      "id": "echec",
+      "titre": "Gestion de l’échec",
+      "description": "<p>Cette dimension évalue votre manière de réagir face aux obstacles, erreurs ou échecs. Elle reflète votre capacité à rebondir, à tirer des leçons des situations difficiles, et à maintenir une attitude constructive malgré les revers.</p><p>Plus votre score est faible, plus vous avez tendance à vivre l’échec comme une remise en cause de votre valeur personnelle. Vous pouvez ressentir du découragement, éviter de prendre des risques ou éprouver des difficultés à vous relever après un revers.</p><p>Si votre score est élevé, vous percevez l’échec comme une étape normale de l’apprentissage. Vous êtes capable de prendre du recul, d’identifier ce que vous pouvez améliorer, et de transformer l’expérience en moteur de progression. Vous faites preuve de résilience et de recul émotionnel.</p>",
+"affirmations": [
+        "Quand j’échoue, j’essaie de comprendre ce que je peux apprendre de cette expérience.",
+        "Je parviens à rebondir après un revers ou une déception.",
+        "L’échec me motive à faire mieux la prochaine fois.",
+        "Je ne laisse pas un échec remettre en cause l’estime que j’ai de moi-même.",
+        "Je considère l’erreur comme une opportunité d’apprendre, pas comme une faiblesse."
+      ]
+    },
+    {
+      "id": "auto_parole",
+      "titre": "Auto-parole positive",
+      "description": "<p>Cette dimension reflète la manière dont vous vous parlez à vous-même, notamment dans les situations difficiles ou stressantes. Elle évalue votre capacité à adopter un discours intérieur encourageant, bienveillant et motivant.</p><p>Plus votre score est faible, plus vous avez tendance à adopter une auto-parole négative, vous critiquant durement, vous décourageant ou doutant de vos capacités. Ce discours intérieur peut freiner vos actions et nuire à votre confiance.</p><p>Si votre score est élevé, vous utilisez une auto-parole constructive. Vous vous soutenez mentalement, même face aux difficultés, et vous êtes capable de vous motiver, de relativiser et de vous encourager. Vous traitez vos erreurs avec indulgence et vous vous aidez à avancer.</p>",
+"affirmations": [
+        "Quand je fais face à un défi, je me parle de manière encourageante.",
+        "Je sais me motiver avec des pensées positives.",
+        "Je suis capable de me rassurer quand je suis stressé(e) ou inquiet(ète).",
+        "Je me parle comme je parlerais à un(e) ami(e) que je veux soutenir.",
+        "Même quand je fais une erreur, je me dis que j’ai le droit d’échouer et d’apprendre."
+      ]
+    },
+    {
+      "id": "perseverance",
+      "titre": "Persévérance",
+      "description": "<p>Cette dimension évalue votre capacité à continuer vos efforts malgré les obstacles, les échecs ou les lenteurs dans les résultats. Elle reflète votre ténacité et votre engagement face aux objectifs à long terme.</p><p>Plus votre score est faible, plus vous avez tendance à abandonner rapidement lorsqu’une tâche devient difficile ou frustrante. Vous pouvez perdre facilement votre motivation ou douter de votre capacité à réussir.</p><p>Si votre score est élevé, vous êtes capable de rester engagé(e) et motivé(e) même face à l’adversité. Vous ne vous découragez pas facilement, et vous faites preuve de constance dans vos efforts jusqu’à atteindre vos objectifs.</p>",
+"affirmations": [
+        "Quand je commence quelque chose d’important, je vais jusqu’au bout, même si c’est difficile.",
+        "Je reste motivé(e) même quand les résultats se font attendre.",
+        "Je considère les obstacles comme des défis à relever, pas comme des raisons d’abandonner.",
+        "Je continue d’avancer, même quand je me sens découragé(e).",
+        "Je suis capable de me relever après un échec pour continuer à progresser."
+      ]
+    },
+    {
+      "id": "optimisme",
+      "titre": "Optimisme",
+      "description": "<p>Cette dimension reflète votre tendance à voir le côté positif des situations et à croire que les choses peuvent s’améliorer. Elle est liée à votre manière d’interpréter les événements et à votre disposition mentale face à l’avenir.</p><p>Plus votre score est faible, plus vous avez tendance à vous focaliser sur les difficultés et à anticiper des issues négatives. Vous pouvez facilement être découragé(e) par les imprévus ou avoir une vision pessimiste de l’avenir.</p><p>Si votre score est élevé, vous faites preuve d’une attitude positive et confiante. Vous croyez en votre capacité à surmonter les difficultés et vous attendez généralement le meilleur, même dans des situations complexes.</p>",
+      "affirmations": [
+        "Je pense que chaque situation, même difficile, peut m’apporter quelque chose de positif.",
+        "Je suis convaincu(e) que les choses finiront par s’arranger.",
+        "Je garde espoir même quand tout semble compliqué.",
+        "Je préfère me concentrer sur les solutions plutôt que sur les problèmes.",
+        "Je crois en ma capacité à créer un avenir meilleur."
+      ]
+    }
+  ]
+},
+{
+  "id": "motivation",
+  "titre": "Test de Motivation et discipline",
+  "image": "../../images/motivation.png",
+  "description": "<p>Ce questionnaire mesure <strong>cinq dimensions clés</strong> de la <strong>motivation</strong> et de la <strong>discipline</strong> : <strong>la clarté des objectifs</strong> (la capacité à se fixer des buts clairs et stimulants), <strong>le passage à l’action</strong> (la tendance à agir plutôt qu’à procrastiner), <strong>la discipline personnelle</strong> (la capacité à suivre des routines et à rester engagé), <strong>la persévérance face aux obstacles</strong> (la ténacité et la résilience face aux difficultés), et <strong>la motivation intrinsèque</strong> (le plaisir et le sens que l’on trouve dans l’action elle-même, indépendamment des récompenses extérieures).</p><p>Pour chaque affirmation, vous devez choisir la réponse qui vous <strong>correspond le mieux</strong>. Chaque réponse est associée à un certain nombre de points : <strong>Tout à fait vrai</strong> vaut <strong>4 points</strong>, <strong>Plutôt vrai</strong> vaut <strong>3 points</strong>, <strong>Plutôt faux</strong> vaut <strong>2 points</strong>, et <strong>Tout à fait faux</strong> vaut <strong>1 point</strong>.</p><p>À la fin du questionnaire, les points seront additionnés pour chaque dimension afin d’obtenir votre <strong>niveau de motivation et de discipline</strong>.</p>",
+  "dimensions": [
+    {
+      "id": "objectifs",
+      "titre": "Clarté des objectifs",
+      "description": "<p>Cette dimension reflète votre capacité à vous fixer des buts clairs, concrets et motivants. Elle mesure dans quelle mesure vous savez où vous allez, et si vous êtes guidé(e) par une vision précise de ce que vous souhaitez accomplir.</p><p>Plus votre score est faible, plus vous avez tendance à avancer sans direction définie. Vous pouvez manquer de vision ou d’envie claire, ce qui rend difficile la planification ou la prise de décisions. Vos objectifs peuvent être flous, changeants ou imposés par les autres.</p><p>Si votre score est élevé, vous avez une idée précise de ce que vous voulez atteindre. Vos objectifs sont définis, inspirants et alignés avec vos valeurs. Cette clarté vous aide à rester concentré(e), à prioriser vos efforts et à prendre des décisions cohérentes avec votre projet de vie.</p>",
+      "affirmations": [
+        "Je me mets rapidement en action dès que j’ai une idée claire de ce que je veux faire.",
+        "Je n’ai pas besoin de longues préparations pour commencer un projet.",
+        "Je passe facilement de la planification à l’exécution.",
+        "Je préfère agir et ajuster ensuite plutôt que de rester dans la réflexion.",
+        "Quand j’ai un objectif, je trouve rapidement un moyen de commencer."
+      ]
+    },
+    {
+      "id": "discipline",
+      "titre": "Discipline personnelle",
+      "description": "<p>Cette dimension reflète votre capacité à maintenir des efforts constants, à respecter vos engagements et à faire preuve de rigueur dans vos habitudes. Elle évalue dans quelle mesure vous êtes capable de rester concentré(e), organisé(e) et persévérant(e), même lorsque la motivation est faible.</p><p>Plus votre score est faible, plus vous avez tendance à vous laisser distraire ou à remettre à plus tard ce que vous devez faire. Vous pouvez avoir des difficultés à instaurer des routines ou à tenir vos engagements dans la durée. Le manque de régularité peut nuire à vos projets.</p><p>Si votre score est élevé, vous savez vous imposer une discipline personnelle, même en l’absence de pression extérieure. Vous êtes constant(e), fiable, et vous avancez avec méthode vers vos objectifs. Vous êtes capable d’agir avec régularité, même sans élan de motivation.</p>",
+      "affirmations": [
+        "Je parviens à respecter les engagements que je me fixe, même sans supervision extérieure.",
+        "Je suis capable de rester concentré(e) sur une tâche, même lorsque je n’en ai pas envie.",
+        "Je m’organise pour avancer régulièrement vers mes objectifs, sans trop procrastiner.",
+        "Je maintiens une certaine rigueur dans mon emploi du temps ou mes routines.",
+        "Je fais ce que j’ai à faire, même lorsque la motivation n’est pas au rendez-vous."
+      ]
+    },
+    {
+      "id": "perseverance",
+      "titre": "Persévérance face aux obstacles",
+      "description": "<p>Cette dimension mesure votre capacité à faire face aux difficultés, à surmonter les échecs et à continuer vos efforts malgré les obstacles. Elle évalue votre ténacité et votre détermination dans la poursuite de vos objectifs, même lorsque les circonstances deviennent défavorables.</p><p>Plus votre score est faible, plus vous avez tendance à abandonner facilement face aux difficultés. Vous pouvez vous décourager rapidement ou perdre confiance en vos capacités lorsque les choses ne se passent pas comme prévu. Vous évitez parfois les défis par peur de l’échec.</p><p>Si votre score est élevé, vous avez une grande force de persistance. Vous affrontez les obstacles avec détermination et apprenez de vos échecs. Même dans les moments de doute ou de découragement, vous trouvez les ressources pour continuer. Vous êtes motivé(e) par vos objectifs, et peu enclin(e) à abandonner.</p>",
+      "affirmations": [
+        "Même lorsque je rencontre des difficultés, je continue à avancer vers mes objectifs.",
+        "Je reste motivé(e) même si les résultats tardent à apparaître.",
+        "J’arrive à rebondir après un échec ou une déception.",
+        "Je fais preuve de ténacité face aux défis, sans abandonner facilement.",
+        "Lorsque je suis découragé(e), je trouve en moi la force de persévérer."
+      ]
+    },
+    {
+      "id": "intrinseque",
+      "titre": "Motivation intrinsèque",
+      "description": "<p>Cette dimension reflète le plaisir que vous trouvez à agir pour le simple intérêt ou la satisfaction personnelle que cela procure, indépendamment des récompenses extérieures. Elle mesure votre capacité à être porté(e) par des motivations internes, comme la curiosité, le désir d’apprendre ou le sens.</p><p>Plus votre score est faible, plus vous avez tendance à attendre des motivations externes pour agir : récompenses, reconnaissance, pression sociale ou obligations. Il peut vous être difficile de passer à l’action sans stimulation extérieure ou cadre imposé.</p><p>Si votre score est élevé, vous êtes animé(e) par des objectifs personnels profonds, une passion ou un intérêt sincère pour ce que vous faites. Vous agissez parce que cela a du sens pour vous, ce qui vous permet de rester motivé(e) même sans retour immédiat ou pression externe.</p>",
+      "affirmations": [
+        "J’aime apprendre de nouvelles choses, même si cela ne me rapporte rien immédiatement.",
+        "Je poursuis mes projets parce qu’ils ont du sens pour moi, pas seulement pour être reconnu(e).",
+        "Je suis motivé(e) par la satisfaction personnelle que me procure ce que je fais.",
+        "Je prends du plaisir à travailler sur des activités simplement parce qu’elles m’intéressent.",
+        "Je continue mes efforts même lorsqu’il n’y a ni récompense ni pression extérieure."
+      ]
+    },
+    {
+      "id": "action",
+      "titre": "Passage à l’action",
+      "description": "<p>Cette dimension mesure votre capacité à transformer vos idées et intentions en actions concrètes. Elle reflète votre dynamisme, votre capacité à vous lancer et à aller au bout de ce que vous entreprenez.</p><p>Plus votre score est faible, plus vous avez tendance à procrastiner ou à rester dans la réflexion sans passer à l’acte. Vous pouvez avoir des difficultés à vous motiver ou à surmonter l’inertie du début. Cela peut entraîner de la frustration ou un sentiment de stagnation.</p><p>Si votre score est élevé, vous agissez rapidement une fois vos décisions prises. Vous êtes dans une dynamique d’action, capable de surmonter les blocages initiaux et de maintenir votre élan. Vous privilégiez l’expérience et l’ajustement en cours de route plutôt que l’attente de la perfection.</p>",
+"affirmations": [
+        "Je me mets rapidement en action dès que j’ai une idée claire de ce que je veux faire.",
+        "Je n’ai pas besoin de longues préparations pour commencer un projet.",
+        "Je passe facilement de la planification à l’exécution.",
+        "Je préfère agir et ajuster ensuite plutôt que de rester dans la réflexion.",
+        "Quand j’ai un objectif, je trouve rapidement un moyen de commencer."
+      ]
+    }
+  ]
+},
+{
+  "id": "charisme",
+  "titre": "Test de Leadership et charisme",
+  "image": "../../images/charisme.png",
+  "description": "<p>Ce questionnaire évalue <strong>cinq dimensions essentielles</strong> du <strong>leadership</strong> et du <strong>charisme personnel</strong> : <strong>l’influence et l’inspiration</strong> (la capacité à motiver et fédérer autour d’une vision), <strong>la présence et l’assurance</strong> (la force de présence et la confiance perçue par les autres), <strong>l’écoute et l’empathie</strong> (la qualité du lien humain et de la compréhension mutuelle), <strong>la décision et l’initiative</strong> (la capacité à prendre des responsabilités et à agir rapidement), et <strong>la vision et la communication</strong> (la clarté d’orientation et l’aptitude à transmettre un message mobilisateur).</p><p>Ce test peut être utile à toute personne souhaitant mieux comprendre son <strong>style d’influence</strong>, sa <strong>capacité à mobiliser</strong> les autres et à exercer un <strong>leadership naturel</strong> dans ses relations ou dans un cadre professionnel.</p><p>Pour chaque affirmation, choisissez la réponse qui vous <strong>correspond le mieux</strong>. Chaque réponse est associée à un certain nombre de points : <strong>Tout à fait vrai</strong> vaut <strong>4 points</strong>, <strong>Plutôt vrai</strong> vaut <strong>3 points</strong>, <strong>Plutôt faux</strong> vaut <strong>2 points</strong>, et <strong>Tout à fait faux</strong> vaut <strong>1 point</strong>.</p><p>À la fin du questionnaire, les points seront additionnés pour chaque dimension afin d’évaluer votre <strong>niveau de leadership et de charisme</strong>.</p>",
+  "dimensions": [
+    {
+      "id": "influence",
+      "titre": "L’influence et l’inspiration",
+      "description": "<p>Cette dimension reflète votre capacité à inspirer confiance, à motiver les autres et à exercer une influence positive dans un groupe. Elle correspond à l’aptitude à susciter l’adhésion, à transmettre de l’enthousiasme et à encourager les autres à donner le meilleur d’eux-mêmes.</p><p>Plus votre score est faible, plus vous avez tendance à rester en retrait ou à avoir du mal à entraîner les autres dans une direction commune. Vous pouvez avoir des idées justes, mais peiner à les communiquer avec conviction ou à susciter l’adhésion autour de vous.</p><p>Si votre score est élevé, vous êtes perçu(e) comme une personne inspirante, capable de motiver, d’unir et de faire naître l’engagement. Vous savez transmettre une vision, donner du sens à l’action collective et générer l’enthousiasme autour de vos projets.</p>",
+"affirmations": [
+        "Je parviens facilement à motiver les autres autour d’un objectif commun.",
+        "On me dit souvent que ma manière de parler donne envie d’agir ou de se dépasser.",
+        "J’arrive à transmettre ma vision de façon claire et mobilisatrice.",
+        "Je donne naturellement confiance aux personnes qui travaillent avec moi.",
+"Quand je crois en une idée ou un projet, je sais convaincre les autres de s’y engager."
+      ]
+    },
+    {
+      "id": "presence",
+      "titre": "Présence et assurance",
+      "description": "<p>Cette dimension reflète votre capacité à imposer votre présence, à affirmer votre position et à dégager de la confiance dans vos interactions. Elle est liée à l’image que vous projetez, à votre posture, à votre aisance dans les échanges et à votre capacité à faire entendre votre voix.</p><p>Plus votre score est faible, plus vous avez tendance à être effacé(e), réservé(e) ou en retrait dans les échanges. Vous pouvez manquer d’assurance ou avoir des difficultés à faire valoir vos idées face aux autres.</p><p>Si votre score est élevé, vous dégagez une impression de force tranquille. Vous savez affirmer vos opinions avec calme et assurance, et êtes perçu(e) comme une personne stable, crédible et charismatique. Votre présence inspire le respect sans avoir besoin de hausser le ton.</p>",
+      "affirmations": [
+        "Lors d’une prise de parole, je me sens confiant(e) et à l’aise devant les autres.",
+        "On m’écoute spontanément quand je m’exprime dans un groupe.",
+        "Je parviens à me faire respecter sans élever la voix ni imposer.",
+        "Je dégage naturellement une impression d’assurance.",
+        "Même en situation de tension, je reste calme, posé(e) et sûr(e) de moi."
+      ]
+    },
+    {
+      "id": "empathie",
+      "titre": "Écoute et empathie",
+      "description": "<p>Cette dimension renvoie à votre capacité à comprendre les émotions, les besoins et les points de vue des autres, ainsi qu’à votre qualité d’écoute dans les interactions. Elle implique une attention sincère à autrui, une capacité à se mettre à la place de l’autre, et une ouverture émotionnelle.</p><p>Plus votre score est faible, plus vous avez tendance à rester centré(e) sur votre propre point de vue ou à minimiser les émotions des autres. Vous pouvez avoir des difficultés à écouter activement ou à reconnaître les signaux émotionnels dans une conversation.</p><p>Si votre score est élevé, vous êtes à l’écoute, attentif(ve) et capable de créer un espace de dialogue bienveillant. Vous comprenez facilement les ressentis des autres et savez adapter votre comportement en conséquence. On se sent souvent compris et soutenu en votre présence.</p>",
+      "affirmations": [
+        "Je prends le temps d’écouter les autres sans les interrompre.",
+        "Je suis sensible aux émotions que les autres expriment, même lorsqu’ils ne les formulent pas clairement.",
+        "Je cherche à comprendre les besoins des autres, même s’ils sont différents des miens.",
+        "Les gens se confient facilement à moi.",
+        "Je fais preuve de compréhension et d’ouverture, même face à des avis opposés aux miens."
+      ]
+    },
+    {
+      "id": "decision",
+      "titre": "Décision et initiative",
+      "description": "<p>Cette dimension reflète votre capacité à prendre des décisions rapidement, à passer à l’action sans attendre, et à assumer vos choix avec confiance. Elle inclut l’aisance à initier des projets, à oser sortir de sa zone de confort et à diriger les actions lorsqu’il le faut.</p><p>Plus votre score est faible, plus vous avez tendance à hésiter, à éviter les responsabilités ou à remettre les décisions aux autres. Vous pouvez craindre de vous tromper ou attendre trop longtemps avant d’agir, ce qui peut freiner vos projets.</p><p>Si votre score est élevé, vous êtes proactif(ve), déterminé(e) et à l’aise pour prendre des décisions, même dans l’incertitude. Vous avez l’esprit d’initiative et ne craignez pas de faire le premier pas. Vous entraînez les autres dans l’action par votre dynamisme.</p>",
+      "affirmations": [
+        "Je prends rapidement des décisions quand une situation l’exige.",
+        "J’ose proposer des idées et lancer des projets, même si tout n’est pas parfaitement prêt.",
+        "Je n’attends pas qu’on me dise quoi faire pour passer à l’action.",
+        "Je suis à l’aise pour assumer la responsabilité de mes choix.",
+        "Je fais preuve d’initiative dans ma vie personnelle ou professionnelle."
+      ]
+    },
+    {
+      "id": "vision",
+      "titre": "Vision et communication",
+      "description": "<p>Cette dimension reflète votre capacité à formuler une vision claire, à inspirer les autres et à communiquer vos idées avec conviction. Elle englobe l’aptitude à partager un cap, mobiliser autour de projets et exprimer clairement vos pensées et intentions.</p><p>Plus votre score est faible, plus vous avez du mal à exprimer clairement vos idées ou à mobiliser les autres autour de vous. Vous pouvez manquer de clarté dans vos propos, ou avoir du mal à faire passer vos messages avec impact.</p><p>Si votre score est élevé, vous êtes capable de transmettre une vision motivante et de la partager avec enthousiasme. Vous communiquez avec aisance, structurez vos idées et influencez positivement ceux qui vous écoutent. Votre parole inspire la confiance et l’adhésion.</p>",
+      "affirmations": [
+        "Je sais formuler clairement mes idées pour que les autres les comprennent.",
+        "J’ai une vision de ce que je veux accomplir et je la communique avec confiance.",
+        "Les gens m’écoutent facilement lorsque je m’exprime.",
+        "Je suis capable d’inspirer ou de motiver les autres par mes paroles.",
+        "Je m’exprime avec clarté, même dans des situations délicates ou complexes."
+      ]
+    }
+  ]
+},
+{
+  "id": "intelligence",
+  "titre": "Test d’intelligence émotionnelle",
+  "image": "../../images/intelligence.png",
+  "description": "<p>Ce questionnaire explore les <strong>cinq composantes clés de l’intelligence émotionnelle</strong> : <strong>la conscience de soi</strong> (la capacité à identifier ses émotions et à comprendre leur impact), <strong>la maîtrise de soi</strong> (la régulation des impulsions et des émotions), <strong>la motivation</strong> (la capacité à se mobiliser et à persévérer pour atteindre ses objectifs), <strong>l’empathie</strong> (la capacité à reconnaître et comprendre les émotions des autres), et <strong>les compétences sociales</strong> (l’aptitude à interagir efficacement avec autrui).</p><p>Pour chaque affirmation, choisissez la réponse qui vous <strong>correspond le mieux</strong>. Chaque réponse est associée à un certain nombre de points : <strong>Tout à fait vrai</strong> vaut <strong>4 points</strong>, <strong>Plutôt vrai</strong> vaut <strong>3 points</strong>, <strong>Plutôt faux</strong> vaut <strong>2 points</strong>, et <strong>Tout à fait faux</strong> vaut <strong>1 point</strong>.</p><p>À la fin du questionnaire, les points seront additionnés pour chaque dimension afin d’évaluer votre <strong>niveau d’intelligence émotionnelle</strong>.</p>",
+  "dimensions": [
+    {
+      "id": "conscience",
+      "titre": "Conscience de soi",
+		"description": "<p>Cette dimension reflète votre capacité à identifier vos émotions, à comprendre ce que vous ressentez et à reconnaître l’impact de vos états émotionnels sur votre comportement.</p><p>Plus votre score est faible, plus vous avez tendance à ignorer ou à minimiser vos émotions. Vous pouvez avoir du mal à mettre des mots sur ce que vous ressentez, à comprendre les causes de vos réactions ou à reconnaître vos besoins émotionnels.</p><p>Si votre score est élevé, vous êtes attentif(ve) à vos ressentis et capable d’identifier clairement vos émotions. Vous comprenez les mécanismes qui influencent vos comportements et prenez du recul sur vos réactions. Cette lucidité intérieure vous permet de mieux vous connaître et de vous ajuster plus facilement aux situations.</p>",
+"affirmations": [
+        "Je suis capable d’identifier précisément ce que je ressens dans différentes situations.",
+        "Je comprends ce qui déclenche mes émotions, même lorsqu’elles sont intenses.",
+        "Je peux mettre des mots clairs sur mes états émotionnels.",
+        "Je remarque rapidement quand mon humeur influence mes décisions ou mes comportements.",
+        "Je prends régulièrement le temps de réfléchir à ce que je ressens et pourquoi."
+      ]
+    },
+    {
+      "id": "maitrise",
+      "titre": "Maîtrise de soi",
+      "description": "<p>Cette dimension reflète votre capacité à réguler vos émotions, à faire preuve de sang-froid et à garder le contrôle dans des situations stressantes ou émotionnellement intenses.</p><p>Plus votre score est faible, plus vous avez tendance à réagir de manière impulsive ou excessive face aux émotions fortes. Vous pouvez vous sentir débordé(e) par la colère, la peur ou la tristesse, et avoir du mal à retrouver votre calme dans les moments difficiles.</p><p>Si votre score est élevé, vous êtes capable de garder la tête froide, même sous pression. Vous savez reconnaître vos émotions sans vous laisser envahir, et vous trouvez des moyens efficaces de les canaliser. Vous faites preuve de stabilité émotionnelle et de retenue dans vos réactions.</p>",
+      "affirmations": [
+        "Je parviens à garder mon calme même lorsque je suis sous pression.",
+        "Je réussis à ne pas me laisser submerger par mes émotions dans les situations difficiles.",
+        "Je prends le temps de réfléchir avant de réagir impulsivement.",
+        "Je sais adapter mon comportement face à des personnes ou des contextes stressants.",
+        "Quand je ressens de la colère ou de la frustration, je trouve des moyens sains pour l’exprimer ou la canaliser."
+      ]
+    },
+    {
+      "id": "motivation",
+      "titre": "Motivation personnelle",
+      "description": "<p>Cette dimension évalue votre capacité à vous motiver par vous-même, à poursuivre vos objectifs avec constance, et à maintenir votre implication même en l’absence de récompenses immédiates.</p><p>Plus votre score est faible, plus vous avez du mal à entretenir un élan constant. Vous pouvez rapidement perdre votre motivation face aux difficultés ou à l’absence de résultats visibles. Il vous est parfois difficile de rester concentré(e) sur vos objectifs à long terme.</p><p>Si votre score est élevé, vous êtes naturellement porté(e) par votre volonté d’avancer. Vous vous engagez avec détermination dans vos projets, même lorsque les obstacles se présentent. Vous êtes capable de nourrir votre énergie intérieure et de garder le cap sans dépendre de facteurs extérieurs.</p>",
+      "affirmations": [
+        "Je me fixe des objectifs personnels et je fais tout pour les atteindre.",
+        "Même quand je suis découragé(e), je trouve en moi la force de continuer.",
+        "J’ai souvent envie d’apprendre de nouvelles choses ou de me dépasser.",
+        "Je reste motivé(e) même quand je n’ai pas de reconnaissance immédiate.",
+        "Je sais me remettre au travail sans qu’on ait besoin de me pousser."
+      ]
+    },
+    {
+      "id": "empathie",
+      "titre": "Empathie",
+      "description": "<p>Cette dimension reflète votre capacité à percevoir, comprendre et accueillir les émotions des autres. Elle implique l’écoute active, la sensibilité à l’état émotionnel d’autrui et la capacité à se mettre à sa place.</p><p>Plus votre score est faible, plus vous avez tendance à vous concentrer sur votre propre point de vue. Vous pouvez éprouver des difficultés à décoder les émotions des autres ou à y réagir de manière appropriée. Vous êtes moins à l’aise pour apporter du soutien ou interagir avec des personnes en situation de vulnérabilité.</p><p>Si votre score est élevé, vous êtes attentif(ve) aux émotions des autres et réagissez avec bienveillance. Vous comprenez spontanément ce que les gens ressentent et savez faire preuve de compassion. Vous êtes naturellement enclin(e) à soutenir, aider et créer des liens émotionnels profonds avec votre entourage.</p>",
+      "affirmations": [
+        "Je suis attentif(ve) aux émotions que les autres expriment, même lorsqu’ils ne les verbalisent pas.",
+        "J’arrive facilement à me mettre à la place des autres pour comprendre ce qu’ils ressentent.",
+        "Lorsque quelqu’un va mal, j’ai naturellement envie de le réconforter ou de l’aider.",
+        "Je remarque rapidement quand une personne semble mal à l’aise ou triste.",
+        "Les émotions des autres me touchent profondément, même si je ne vis pas la même situation."
+      ]
+    },
+    {
+      "id": "sociales",
+      "titre": "Compétences sociales",
+      "description": "<p>Cette dimension reflète votre capacité à interagir efficacement avec les autres, à établir des relations positives et à vous adapter aux différents contextes sociaux. Elle englobe des qualités comme la diplomatie, la coopération, et l’aisance dans les échanges.</p><p>Plus votre score est faible, plus vous pouvez avoir des difficultés à vous sentir à l’aise dans les relations sociales. Vous pouvez être réservé(e), mal à l’aise dans les conversations ou avoir du mal à comprendre les codes sociaux implicites. Il vous est parfois difficile de créer ou de maintenir des relations harmonieuses.</p><p>Si votre score est élevé, vous interagissez avec aisance dans la plupart des contextes sociaux. Vous communiquez de manière claire et respectueuse, savez coopérer avec les autres, et êtes capable de créer un climat relationnel positif. Vous vous adaptez bien aux différentes personnalités et savez gérer les désaccords avec tact.</p>",
+      "affirmations": [
+        "Je me sens à l’aise pour engager la conversation avec des personnes que je ne connais pas.",
+        "Je parviens facilement à créer un climat de confiance dans mes échanges avec les autres.",
+        "J’adapte ma façon de communiquer selon la personne ou la situation.",
+        "Je sais coopérer et travailler efficacement en équipe.",
+        "Même en cas de désaccord, je reste respectueux(se) et à l’écoute de mon interlocuteur."
+      ]
+    }
+  ]
+},
+{
+  "id": "timidite",
+  "titre": "Test de la timidité",
+  "image": "../../images/timidite.png",
+  "description": "<p>Ce questionnaire explore différentes dimensions liées à la <strong>timidité</strong>, comme <strong>l’aisance en société</strong>, <strong>la peur du jugement</strong>, <strong>la prise de parole</strong>, ou encore <strong>la confiance en présence d’autrui</strong>. Il vous aidera à mieux comprendre les situations dans lesquelles vous pouvez vous sentir inhibé(e), ainsi que les ressources dont vous disposez déjà pour vous affirmer davantage.</p><p>Ce test évalue cinq aspects essentiels : <strong>l’aisance sociale</strong> (votre confort dans les interactions informelles), <strong>la peur du jugement</strong> (le regard des autres vous bloque-t-il ?), <strong>la prise de parole</strong> (votre capacité à vous exprimer en groupe), <strong>la confiance relationnelle</strong> (votre capacité à créer du lien), <strong>la capacité d’affirmation</strong> (oser dire ce que vous pensez ou voulez).</p><p>Pour chaque affirmation, vous devez choisir la réponse qui vous <strong>correspond le mieux</strong>. Chaque réponse est associée à un certain nombre de points : <strong>Tout à fait vrai</strong> vaut <strong>4 points</strong>, <strong>Plutôt vrai</strong> vaut <strong>3 points</strong>, <strong>Plutôt faux</strong> vaut <strong>2 points</strong>, et <strong>Tout à fait faux</strong> vaut <strong>1 point</strong>. À la fin du questionnaire, les points seront additionnés pour chaque dimension afin d’obtenir votre <strong>niveau de timidité</strong>.</p>",
+  "dimensions": [
+    {
+      "id": "aisance",
+      "titre": "Aisance sociale",
+      "description": "<p>Cette dimension évalue votre niveau de confort dans les situations sociales, en particulier lors de conversations informelles, d’événements en groupe ou de rencontres avec de nouvelles personnes. Elle reflète votre capacité à interagir naturellement et spontanément.</p><p>Plus votre score est faible, plus vous avez tendance à vous sentir mal à l’aise en société. Vous pouvez éviter les interactions sociales, craindre de ne pas savoir quoi dire, ou vous sentir tendu(e) dans les groupes. La timidité peut limiter vos échanges et vous donner envie de vous retirer.</p><p>Si votre score est élevé, vous êtes généralement à l’aise avec les autres, même en présence d’inconnus. Vous prenez facilement la parole, participez activement aux discussions, et vous adaptez rapidement aux contextes sociaux. Vous vous sentez détendu(e) et naturel(le) dans vos interactions.</p>",
+      "affirmations": [
+        "Je me sens à l’aise quand je dois parler à des personnes que je ne connais pas.",
+        "Participer à une conversation de groupe ne me pose généralement aucun problème.",
+        "J’ai tendance à éviter les situations sociales où je dois interagir avec des inconnus.",
+        "Lorsque je suis entouré(e) de monde, je me sens plutôt détendu(e) et naturel(le).",
+        "Prendre la parole devant plusieurs personnes me semble facile."
+      ]
+    },
+    {
+      "id": "jugement",
+      "titre": "Peur du jugement",
+      "description": "<p>Cette dimension reflète votre sensibilité au regard des autres, ainsi que votre crainte d’être évalué(e), critiqué(e) ou rejeté(e) dans les interactions sociales.</p><p>Plus votre score est faible, plus vous vous sentez libre d’agir sans craindre l’opinion des autres. Vous acceptez que tout le monde ne vous apprécie pas, et cela n’affecte pas votre confiance. Vous êtes à l’aise pour être vous-même, même sous le regard d’autrui.</p><p>Si votre score est élevé, vous accordez beaucoup d’importance à ce que les autres pensent de vous. Vous redoutez souvent d’être jugé(e), ce qui peut vous freiner dans vos actions ou vos prises de parole. Vous cherchez à plaire ou à éviter les critiques, parfois au détriment de votre authenticité.</p>",
+      "affirmations": [
+        "J’ai souvent peur de dire ce que je pense par crainte d’être mal jugé(e).",
+        "L’idée d’être au centre de l’attention me met mal à l’aise.",
+        "Je m’empêche parfois d’agir ou de m’exprimer pour ne pas déplaire aux autres.",
+        "J’accorde beaucoup d’importance à l’image que je renvoie.",
+        "Je redoute fortement les critiques, même lorsqu’elles sont constructives."
+      ]
+    },
+    {
+      "id": "parole",
+      "titre": "Prise de parole",
+      "description": "<p>Cette dimension évalue votre aisance à vous exprimer en public ou dans des contextes sociaux, que ce soit dans des conversations informelles ou lors de prises de parole plus formelles. Elle est souvent liée à la confiance en soi, à la gestion du trac et à la capacité à assumer sa voix en présence d’autrui.</p><p>Plus votre score est faible, plus vous avez tendance à éviter de parler en public ou à vous sentir mal à l’aise lorsque vous devez vous exprimer devant les autres. Vous pouvez ressentir du stress à l’idée d’être au centre de l’attention, et craindre d’être jugé(e) ou de faire des erreurs.</p><p>Si votre score est élevé, vous êtes à l’aise dans l’expression orale, même dans des contextes exigeants. Vous parvenez à structurer vos idées, à prendre la parole sans crainte, et à faire entendre votre voix avec assurance, que ce soit dans des échanges en tête-à-tête ou face à un groupe.</p>",
+      "affirmations": [
+        "Je me sens tendu(e) ou anxieux(se) à l’idée de parler devant un groupe.",
+        "Même dans les petites conversations, j’ai parfois du mal à trouver mes mots.",
+        "Je préfère me taire plutôt que de risquer de dire quelque chose de gênant.",
+        "Il m’est difficile d’intervenir ou de poser une question en public.",
+        "Je perds facilement mes moyens quand je dois m’exprimer face à plusieurs personnes."
+      ]
+    },
+    {
+      "id": "relationnelle",
+      "titre": "Confiance relationnelle",
+      "description": "<p>Cette dimension reflète votre capacité à faire confiance aux autres dans vos relations sociales et à vous sentir en sécurité dans les interactions humaines. Elle influence la manière dont vous vous ouvrez aux autres, partagez vos pensées, et établissez des liens sincères.</p><p>Plus votre score est faible, plus vous avez tendance à vous méfier des intentions d’autrui. Vous pouvez éprouver des difficultés à vous confier, à déléguer ou à vous engager pleinement dans des relations. La peur d’être trahi(e), jugé(e) ou rejeté(e) peut freiner votre ouverture aux autres.</p><p>Si votre score est élevé, vous êtes capable d’accorder facilement votre confiance et de créer des relations profondes et authentiques. Vous êtes à l’aise dans les échanges, montrez de la transparence et ressentez peu de crainte à l’idée d’être vulnérable émotionnellement.</p>",
+      "affirmations": [
+        "Je me sens à l’aise pour me confier à quelqu’un lorsque j’en ressens le besoin.",
+        "J’ai confiance dans les intentions des personnes qui m’entourent.",
+        "Je parviens facilement à établir des relations sincères et profondes avec les autres.",
+        "Je n’ai pas peur de montrer mes émotions ou mes failles dans une relation.",
+        "Je crois que l’on peut construire des liens solides et fiables avec les autres."
+      ]
+    },
+    {
+      "id": "affirmation",
+      "titre": "Capacité d’affirmation",
+      "description": "<p>Cette dimension reflète votre aptitude à exprimer vos besoins, vos opinions et vos limites de manière claire, directe et respectueuse. Elle concerne votre capacité à vous faire entendre sans dominer ou vous soumettre dans les échanges sociaux.</p><p>Plus votre score est faible, plus vous avez tendance à vous effacer, à éviter les conflits et à laisser les autres décider à votre place. Il peut vous être difficile de dire non ou de défendre vos droits.</p><p>Plus votre score est élevé, plus vous êtes capable de vous affirmer avec assurance, de défendre votre point de vue et de poser vos limites tout en respectant celles des autres. Vous êtes à l’aise dans les échanges, même lorsque ceux-ci sont désaccordés ou délicats.</p>",
+      "affirmations": [
+        "Je sais exprimer mes désaccords sans me sentir coupable.",
+        "Il m’est facile de dire non lorsque quelque chose ne me convient pas.",
+        "Je fais entendre mon opinion même lorsque les autres ne sont pas d’accord.",
+        "Je sais poser des limites claires dans mes relations personnelles et professionnelles.",
+        "Je me sens légitime à défendre mes besoins et mes droits."
+      ]
+    }
+  ]
+}
+]
+}

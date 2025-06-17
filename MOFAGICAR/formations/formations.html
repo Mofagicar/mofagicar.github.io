@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formation</title>
+  <link rel="stylesheet" href="formation.css" />
+  <script defer src="formation.js"></script>
+</head>
+<body>
+
+  <!-- En-tête fixe avec bouton retour et titre -->
+  <header>
+    <img id="back-button" src="../images/retour.png" alt="Retour" onclick="retourAction()">
+    <div id="barre-de-titre" class="barre-titre">Titre de la formation</div>
+  </header>
+
+  <main>
+    <!-- Illustration dynamique -->
+    <div id="illustration-container" class="illustration"></div>
+
+    <!-- Présentation générale de la formation -->
+    <div id="content-container" class="presentation"></div>
+
+    <!-- Conteneur des boutons pour chaque jour -->
+    <div id="buttons-container"></div>
+
+    <!-- Lien vers la formation complète -->
+    <div id="telecharger-livre" class="livre-lien-container"></div>
+  </main>
+
+  <!-- Pied de page dynamique -->
+  <footer>
+    <div id="footer-container"></div>
+  </footer>
+
+</body>
+</html>

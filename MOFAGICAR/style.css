@@ -1,0 +1,384 @@
+
+/* -----------------------------
+   RÈGLES GÉNÉRALES
+------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px 0 0 0;
+  background-color: #f0f2f5;
+  overflow-x: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* Apparaît une fois que la page est chargée */
+body.loaded {
+  opacity: 1;
+}
+
+
+/* -----------------------------
+   EN-TÊTE ET TITRE PRINCIPAL
+------------------------------*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f0f2f5;
+  z-index: 1000;
+  box-shadow: 0px 1px transparent;
+  height: auto;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+/* Barre de titre principale */
+.titre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ff6600;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: calc(100% - 150px);
+  margin: 0 auto;
+  padding: 1px;
+}
+
+.titre img {
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/* -----------------------------
+   MENU BURGER
+------------------------------*/
+.menu-burger {
+  font-size: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  border-radius: 20px;
+  color: #ff6600;
+}
+
+
+/* -----------------------------
+   BARRE DE RECHERCHE
+------------------------------*/
+#barre-de-recherche {
+  position: relative;
+  right: -110%;
+  width: 100%;
+  height: 55px;
+  background: #ff6600;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: right 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 0;
+  opacity: 0;
+  margin: 0;
+  margin-left: 10px;
+}
+
+/* Affichage lors de l’animation */
+#barre-de-recherche.show {
+  right: 0;
+  margin-top: 10px;
+  max-height: 55px;
+  opacity: 1;
+}
+
+/* Input dans la barre de recherche */
+input[type="text"] {
+  all: unset;
+  color: white;
+  background: #ff6600;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+}
+
+.barre-de-recherche::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.barre-de-recherche-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+#searchInput {
+  width: 100%;
+  padding-right: 40px;
+}
+
+/* Icône pour effacer le texte */
+.icone-effacer {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  display: none;
+  opacity: 1;
+}
+
+.icone-effacer:hover {
+  opacity: 0.7;
+}
+
+
+/* -----------------------------
+   BARRE DE MENU
+------------------------------*/
+#barre-menu {
+  position: relative;
+  left: -100%;
+  width: calc(100% - 10px);
+  height: 55px;
+  background: #ff6600;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: left 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  max-height: 0;
+  opacity: 0;
+  margin: 0;
+}
+
+/* Affichage lors de l’animation */
+#barre-menu.show {
+  left: 0;
+  margin-top: 10px;
+  max-height: 55px;
+  opacity: 1;
+}
+
+
+/* -----------------------------
+   LIENS DU MENU
+------------------------------*/
+.liens-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.liens-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+
+/* -----------------------------
+   NAVIGATION FORMATIONS
+------------------------------*/
+.bloc-navigation {
+  display: flex;
+  padding: 0 15px;
+  overflow-x: auto;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+
+/* -----------------------------
+   BLOCS DE FORMATION
+------------------------------*/
+.bloc {
+  min-width: 150px;
+  height: 200px;
+  background: #ff6600;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bloc img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+}
+
+.titre-bloc {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+/* -----------------------------
+   ICÔNE DE RECHERCHE
+------------------------------*/
+.icone-de-recherche {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.icone-loupe {
+  width: 24px;
+  height: 24px;
+}
+
+
+/* -----------------------------
+   PARAGRAPHES ET TEXTES
+------------------------------*/
+#presentation,
+#presentationformations,
+#presentation-tests,
+#apropos {
+  height: auto;
+}
+
+#paragraphe-texte {
+  background: white;
+  border-radius: 16px;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margin: 15px;
+}
+
+section h2 {
+  font-size: 24px;
+  color: #ff6600;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: disc inside;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #f0f2f5;
+}
+
+.titre-navigation {
+  margin: 25px;
+}
+
+#grand-titre {
+  padding: 20px;
+  background: #ff6600;
+  color: white;
+}
+
+section a {
+  color: black;
+  font-weight: bold;
+}
+
+
+/* -----------------------------
+   RÉSULTATS DE RECHERCHE
+------------------------------*/
+#resultats-recherche {
+  width: 100%;
+  height: auto;
+  background: #f0f2f5;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  max-height: 300px;
+  overflow-y: scroll;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#resultats-recherche h3 {
+  color: #ff6600;
+  font-size: 18px;
+  margin: 10px 0 5px 0;
+}
+
+#resultats-recherche ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#resultats-recherche li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#resultats-recherche li:last-child {
+  border-bottom: none;
+}
+
+#resultats-recherche li:hover {
+  background-color: #fff4ec;
+}
+
+#resultats-recherche img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #ff6600;
+}
+
+
+/* -----------------------------
+   EFFET D’ASSOMBRISSEMENT
+------------------------------*/
+.assombri {
+  background-color: #fff;
+  opacity: 0.3;
+  pointer-events: none;
+  transitions: opacity 0.3s ease;
+}

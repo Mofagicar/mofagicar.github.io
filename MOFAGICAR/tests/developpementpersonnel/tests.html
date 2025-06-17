@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Test de Développement Personnel</title>
+  <link rel="stylesheet" href="tests.css" />
+  <script src="tests.js" defer></script>
+</head>
+<body>
+
+  <!-- En-tête avec bouton de retour et titre -->
+  <header>
+    <img id="back-button" src="../../images/retour.png" alt="Retour" onclick="retourAction()" />
+    <div id="barre-de-titre">Chargement du test...</div>
+  </header>
+
+  <!-- Illustration du test -->
+  <div id="illustration-container" class="illustration"></div>
+
+  <!-- Présentation du test -->
+  <div class="presentation" id="test-description"></div>
+
+  <!-- Dimensions et questions dynamiques -->
+  <div class="container" id="test-dimensions"></div>
+
+  <!-- Bouton global de réinitialisation -->
+  <button onclick="reinitialiserTestComplet()">Réinitialiser tout le test</button>
+
+  <!-- Pied de page -->
+  <footer id="footer-container"></footer>
+
+</body>
+</html>
